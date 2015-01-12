@@ -2,7 +2,6 @@
 published: false
 ---
 
-
 ## Overview<a id="sec-1-1"></a>
 
 Types are at the center of computing. Types represent the things or objects we
@@ -129,4 +128,3 @@ of programs. Python therefore caches small objects like integers so that
 programs can run faster, and reduce overhead cost.
 
 That in a nutshell is how the python garbage collector works.
-
