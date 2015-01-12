@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+title: Python's dynamic type system!
+publish: true
 ---
 
 ## Overview<a id="sec-1-1"></a>
