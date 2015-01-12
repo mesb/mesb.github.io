@@ -2,14 +2,11 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
+I am a journeyman programmer. This platform is a trusted data store for my notes. More importantly, it is a platform to permit me share information, learn from, and network with others.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Twitter: @ebmesem
