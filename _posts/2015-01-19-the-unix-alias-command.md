@@ -20,7 +20,7 @@ clicks and navigation would show that the clicking user will  spend
 more time on the task than a counterpart using the terminal. Here is
  the simulated action in the terminal:
 
-*cd ~/Downloads && cp alias ~/Documents*
+**cd ~/Downloads && cp alias ~/Documents**
 
 Note: I'm assuming the users are on a Unix environment
 
@@ -36,28 +36,29 @@ replacement of words by another word or string. Interestingly, it can
 be used to alias longer commands, enabling users to type less key
 strokes and get more done. Below is an alias syntax:
 
-*alias new_name original_name*
+**alias new_name original_name**
 
 In my case, i spend a lot of time in the terminal. I move between
 project files, my home directory, my dropbox folder etc. I have
 happily used the alias command to simplify these movements. Below are
 a few ways i use this command:
 
-*alias home='cd ~'*
+**alias home='cd ~'**
 
 With this setting, all i need to do is type 'home' in the terminal to
 move to the home directory. I guess this is way shorter and far more
 productive than typing 'cd ~' every time.
 
-*alias docs='cd ~/Documents'*
+**alias docs='cd ~/Documents'**
 
 Similarly, i use the newly created 'docs' alias to move to my
 documents folder anytime.
 
 Other ways,
 
-*ll ='ls -l'*
-*la ='ls -a'*
+**ll ='ls -l'**
+
+**la ='ls -a'**
 
 Definitely, 'man alias', 'help alias' will provide you with more
 information on this powerful tool. Now go on and enjoy life in the terminal.
