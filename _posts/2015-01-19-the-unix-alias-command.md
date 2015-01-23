@@ -20,7 +20,7 @@ clicks and navigation would show that the clicking user will  spend
 more time on the task than a counterpart using the terminal. Here is
  the simulated action in the terminal:
 
-**cd ~/Downloads && cp alias ~/Documents**
+**cd ~/Downloads && cp alias.txt ~/Documents**
 
 Note: I'm assuming the users are on a Unix environment
 
