@@ -56,9 +56,9 @@ documents folder anytime.
 
 Other ways,
 
-**ll ='ls -l'**
+**alias ll ='ls -l'**
 
-**la ='ls -a'**
+**alias la ='ls -a'**
 
 Definitely, 'man alias', 'help alias' will provide you with more
 information on this powerful tool. Now go on and enjoy life in the terminal.
