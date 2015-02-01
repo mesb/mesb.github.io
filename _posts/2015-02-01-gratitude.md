@@ -4,7 +4,6 @@ title: Gratitude
 publish: true
 ---
 
-## Gratitude<a id="sec-1"></a>
 
 I am very thankful to myelf, and the universe for giving me the opportunity to see
 this day. While this might sound normal, it is very deep. Very deep in the
@@ -28,12 +27,9 @@ further capture and development of new ideas.
 
 Once more, i'm so grateful :-)
 
-<div id="footnotes">
-<h2 class="footnotes">Footnotes: </h2>
-<div id="text-footnotes">
+## Footnotes:
 
-<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> Emacs is a powerful editor, that is extensible and very
-flexible. <http://www.gnu.org/software/emacs></div>
+[ Emacs is a powerful editor, that is extensible and very flexible.] (http://www.gnu.org/software/emacs)
 
 <div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> An extension of emacs for taking down notes, and organizing ideas. Also a
 great productivity tool. <http://www.orgmode.org></div>
