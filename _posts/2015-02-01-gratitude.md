@@ -27,7 +27,7 @@ further capture and development of new ideas.
 
 Once more, i'm so grateful :-)
 
-### Footnotes:
+##### Footnotes:
 
 <sub><sup>1. Emacs is a powerful editor, that is extensible and very flexible. <http://www.gnu.org/software/emacs> </sup></sub>
 
