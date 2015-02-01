@@ -29,10 +29,10 @@ Once more, i'm so grateful :-)
 
 ## Footnotes:
 
-1. [ Emacs is a powerful editor, that is extensible and very flexible.] (http://www.gnu.org/software/emacs)
+1. Emacs is a powerful editor, that is extensible and very flexible. <http://www.gnu.org/software/emacs>
 
-2. [An extension of emacs for taking down notes, and organizing ideas. Also a
-great productivity tool.] <http://www.orgmode.org></div>
+2. An extension of emacs for taking down notes, and organizing ideas. Also a
+great productivity tool. <http://www.orgmode.org></div>
 
 3. <http://www.gettingthingsdone.com></div>
 
