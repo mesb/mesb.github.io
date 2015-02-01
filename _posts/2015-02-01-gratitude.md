@@ -1,13 +1,10 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1. Gratitude</a></li>
-</ul>
-</div>
-</div>
+---
+layout: post
+title: Gratitude
+publish: true
+---
 
-# Gratitude<a id="sec-1"></a>
+## Gratitude<a id="sec-1"></a>
 
 I am very thankful to myelf, and the universe for giving me the opportunity to see
 this day. While this might sound normal, it is very deep. Very deep in the
