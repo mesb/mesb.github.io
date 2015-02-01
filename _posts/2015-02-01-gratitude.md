@@ -29,13 +29,10 @@ Once more, i'm so grateful :-)
 
 ## Footnotes:
 
-[ Emacs is a powerful editor, that is extensible and very flexible.] (http://www.gnu.org/software/emacs)
+1. [ Emacs is a powerful editor, that is extensible and very flexible.] (http://www.gnu.org/software/emacs)
 
-<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> An extension of emacs for taking down notes, and organizing ideas. Also a
-great productivity tool. <http://www.orgmode.org></div>
+2. [An extension of emacs for taking down notes, and organizing ideas. Also a
+great productivity tool.] <http://www.orgmode.org></div>
 
-<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <http://www.gettingthingsdone.com></div>
+3. <http://www.gettingthingsdone.com></div>
 
-
-</div>
-</div>
