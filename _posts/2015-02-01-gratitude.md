@@ -5,7 +5,7 @@ publish: true
 ---
 
 
-I am very thankful to myelf, and the universe for giving me the opportunity to see
+I am very thankful to myself, and the universe for giving me the opportunity to see
 this day. While this might sound normal, it is very deep. Very deep in the
 sense that, i see this day differently than i would have seen it under my
 former convictions, and undertakings.
