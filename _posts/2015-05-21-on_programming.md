@@ -4,9 +4,6 @@ title: On the art of programming!
 publish: true
 ---
 
-
-I have traveled to the future to write this piece of work.
-
 ## What is Programming?<a id="orgheadline1"></a>
 
 The art of composing computer programs.
