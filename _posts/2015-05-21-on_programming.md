@@ -5,9 +5,6 @@ publish: true
 ---
 
 
-
-# On the art of Programming<a id="orgheadline13"></a>
-
 I have traveled to the future to write this piece of work.
 
 ## What is Programming?<a id="orgheadline1"></a>
