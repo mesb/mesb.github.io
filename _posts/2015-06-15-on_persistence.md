@@ -3,15 +3,6 @@ layout: post
 title: On data Persistence!
 publish: true
 ---
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1. On Data Persistence and Configuration Files</a></li>
-</ul>
-</div>
-</div>
-
 # On Data Persistence and Configuration Files<a id="sec-1" name="sec-1"></a>
 
 Persistence can be defined as the continued or prolonged existence of
