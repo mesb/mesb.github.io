@@ -22,7 +22,7 @@ Input goes in, and output comes out. Programs are deterministic.
 
 A computer program is made of 2 classes of objects:
 
-### Function:<a id="orgheadline3"></a>
+### Functions:<a id="orgheadline3"></a>
 
 A function/procedure is a block of code or is a smaller program that is
 contained within a program, that is deviced to perform a particular
