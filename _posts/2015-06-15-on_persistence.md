@@ -16,7 +16,7 @@ Persistence makes computing systems to have personality. You
 configure a system and it remembers these configurations till you
 decide to explicity change them. The major abstraction for
 persistence is the 'file system'. Unlike the RAM, files stored on
-devices on are there to stay.
+devices and are there to stay.
 
 This ability to store files can be used to do real good, especially
 on Unix environments. Unix was originally known as the Programmer's
