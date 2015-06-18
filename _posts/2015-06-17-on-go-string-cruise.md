@@ -146,4 +146,4 @@ and below are the benchmark results
 
 In effect, the golang len(string) has to be made faster.
 
-![img](../images/benchmarks.gif "Benchmarks for custmoized string liv vs the go standard string library")
+![img]({{ site.url }}/images/benchmarks.gif "Benchmarks for custmoized string liv vs the go standard string library")
