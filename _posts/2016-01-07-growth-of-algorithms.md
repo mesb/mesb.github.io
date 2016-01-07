@@ -9,13 +9,13 @@ publish: true
 Functions are incarnations of algorithms. As these functions evolve they consume
 computational resources. Also, functions are often called procedures in
 computations and the algorithm-function relationship gives birth to what is
-called procedural abstraction. That is what ever procedure is harshed from a
-function/algorithm is independent in its own right and solves the intended
+called procedural abstraction. Any procedure harshed from a
+function/algorithm is independent and solves the intended
 problem in its own way. Several procedures with the same name could actually
 implement different algorithms, but all arrive at the same solution. In this
 case, each of the procedures is called a procedural abstracion.
 
-An example is a square root function. THe square root of a number could be
+An example is a square root function. The square root of a number can be
 calculated in a variety of ways:
 
 1.  Newton&rsquo;s method or using a binomial expansion of power 1/2
