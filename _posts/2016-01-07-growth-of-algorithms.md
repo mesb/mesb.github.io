@@ -27,10 +27,10 @@ have a choice. And if we have a choice, then we need to use a scale of
 preference, and opportunity costs to determine which of the algorithms to use. A
 closer look at the concept of scale of preference reveals that we might chose
 the algorithm that uses less time to compute the result we are seeking. And the
-opportunity cost will enable us get a feel of what we shall loose if we chose
+opportunity cost will enable us get a feel of what we shall lose if we chose
 one algorithm over the others. Eventually, we need a proper understanding of
 the implications of using any algorithm we choose. How can we understand what
-we loose or gain from an algorithm?
+we lose or gain from an algorithm?
 
 The procedures can be formally analyzed to understand the their comsumption of
 resources. It is this formal understanding that will help us classify
