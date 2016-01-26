@@ -24,7 +24,7 @@ I wrote this post in emacs. Amongst Emacs's features, is the aspect that emacs
 is a 'way of life.' It is a way of life that lets you get things done. For
 example, i am writing this post thanks to emacs.
 
-![My Emacs screenshot] ({{ site.baseurl }}/images/emacs.png)
+![img]({{ site.url }}/images//emacs.png)
 
 An emacs screenshot i made. An example of splitting the Emacs frame(or window). Python notes, with in-line code execution to the left. To the right, Tetris game, and a shell window with the results of: 'dig google.com' command
 
@@ -41,7 +41,7 @@ great at notes taking, organizing thougts in plain text, and it most
 importantly provides means of exporting text to other formats. This post was
 written in Org-mode and then exported to markdown, and html.
 
-![An org-mode screenshot i found on the internet] ({{ site.baseurl }}/images/main.jpg)
+![An org-mode screenshot i found on the internet]({{ site.baseurl }}/images/main.jpg "Emacs Scrrenshot")
 
 A screenshot of Emacs org-mode...
 
