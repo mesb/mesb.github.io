@@ -1,10 +1,10 @@
 ---
 layout: post
-title: growth of algorithms
+title: memory mapped I/O
 publish: true
 ---
 
-# I/O Devices and how they work
+# Memory mapped I/O Devices and how they work
 
 This text explains how 2 I/O devices, precisely the screen and keyboard,
 work. The technique explained here is a memory mapped technique.
