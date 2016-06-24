@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On data Persistence!
+title: On Computer Science and Magic
 publish: true
 ---
 # On Computer Science and Magic<a id="orgheadline5"></a>
