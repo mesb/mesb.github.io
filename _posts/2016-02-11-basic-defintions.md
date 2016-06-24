@@ -7,11 +7,11 @@ publish: true
 # Elementary Defintions<a id="orgheadline13"></a>
 
 It's always a pleasure reading Euclid's Elements, Sir Isaac Newton's Principia
-and Euler's works. I love the organization of their materials. It starts from
-basic building blocks to empires. They define the elements of their systems in
+and Euler's works. I love the organization of their materials. They start from
+basic building blocks and end up building empires. They define the elements of their systems in
 very clear ways. I therefore, set up this page as an attempt to capture the
 definitions of some of the building blocks of computer science, in the format
-used by the sages before our time.
+used by the sages before my time.
 
 ## Definitions<a id="orgheadline12"></a>
 
@@ -34,26 +34,28 @@ A value is a collection of bits or bytes that make sense only as a whole.
 ### Defition IV<a id="orgheadline5"></a>
 
 A type is a set of values together with the permissible operations that can be
-performed on the set.
+performed on itself.
 
 ### Defintion V<a id="orgheadline6"></a>
 
 An object is that which has values and by virtue of its values belongs to
-one or more types. Like an individual in a society, it has its identity and performs operations particular to
+one or more types. Like an individual in a society, it has an identity and performs operations particular to
 its types.
 
 ### Defintion VI<a id="orgheadline7"></a>
 
 A prime object is that whose only parts are its native bits. It&rsquo;s only values
-are the bits that form its bulk, and it can not be expressed as any other
-object, but bits in a computing system.
+are the bits that form its bulk, and it cannot be expressed as any other
+object, but bits in a computing system. A prime object is also known as a
+primtive object, since it cannot be factored into other objects in the system,
+except its existential bits.
 
 ### Defintion VII<a id="orgheadline8"></a>
 
 A composite or compound object is that which is made of a collection of one or
 more prime objects or other objects of its nature, that is other composite
 objects, which could all be of thesame
-type or different types, and together form a whole.
+type or different types and together form a whole.
 
 ### Defintion VIII<a id="orgheadline9"></a>
 
