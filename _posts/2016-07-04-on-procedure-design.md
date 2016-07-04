@@ -1,6 +1,6 @@
 ---
 layout: post
-title: on procedure design
+title: On procedure design
 publish: true
 ---
 
@@ -13,7 +13,7 @@ coherent statements that rely on one another and together achieve the specific
 goal intended by the procedure. To design a procedure, we should consider the
 sets of values it receives as input and the set of values it should return as
 output. A procedure receives input, manipulates the input and returns suitable
-output. Hence to design and implement a procedure, we should pay particular
+output. Hence, to design and implement a procedure, we should pay particular
 attention to values received and returned as output.
 
 ## Steps for designing a procedure, with an example<a id="orgheadline4"></a>
@@ -41,7 +41,7 @@ A list, in scheme, is either empty or it is made of 2 parts:
 -   A value, identified as the car of the list, and
 -   A list. The rest of the list, called the cdr of the list.
 
-Consider each possible existence of the list, and construct a procedural
+Consider each possible existential form of the list, and construct a procedural
 handler for it. This is analogous to writing web applications, where the
 nature of requests are investigated, requests routes constructed, and
 request handlers implemented for each route.
