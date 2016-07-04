@@ -75,10 +75,15 @@ request handlers implemented for each route.
     package them as your procedure.
 
     ;; list-length: List &#x2013;> Int
+
     ;; usage: (list-length lst) = the length of the list
+
     (define list-length
+
         (lambda (lst)
+
             (if (null? lst) 0
+
                 (+ 1 (list-length (cdr lst))))))
 
 At this point we have implemented the procedure, taking into account its forms
