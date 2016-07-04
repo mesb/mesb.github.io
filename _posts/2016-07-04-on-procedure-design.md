@@ -66,7 +66,7 @@ request handlers implemented for each route.
     non-empty list is the length of the first element, which is a value, plus
     the length of the list that value is concatenated to.
 
-    (+ 1 (list-length lst))
+    (+ 1 (list-length (cdr lst)))
 
     This step, in this case, is tackled using recursion, but other methods
     would do.
@@ -79,11 +79,8 @@ request handlers implemented for each route.
     ;; usage: (list-length lst) = the length of the list
 
         (define list-length
-
             (lambda (lst)
-
                 (if (null? lst) 0
-
                     (+ 1 (list-length (cdr lst))))))
 
 At this point we have implemented the procedure, taking into account its forms
