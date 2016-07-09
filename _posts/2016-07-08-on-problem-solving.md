@@ -6,7 +6,8 @@ publish: true
 
 # On Problem Solving<a id="orgheadline14"></a>
 
-This note is very similar in spirit to my previous notes of procedure design. I excited by how
+This note is very similar in spirit to my previous notes of procedure design. I
+am hugely excited by how
 much i have missed, and how much I have now resolved to gain from learning from
 my mistakes and the mistakes those that came before me. Problem solving is
 birth right. It comes with the mind, and like a baby practices till it can walk problem solving
