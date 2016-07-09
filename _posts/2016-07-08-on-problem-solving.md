@@ -102,8 +102,8 @@ problem.
 
     Tree ::= () | (Atom . Tree)
 
-    ;; count-leaves: Tree &#x2013;> Int
-    ;; usage: (count-leaves Tree) &#x2013;> Int
+    ;; count-leaves: Tree ==> Int
+    ;; usage: (count-leaves Tree) ==> Int
     (define count-leaves
         (lambda (tree)
             (cond ((null? tree) 0)
@@ -114,11 +114,11 @@ problem.
 
     ;; (define tree (list (list 1 2 3) 3  5 (list 3 4 5)))
 
-    ;; (count-leaves tree) &#x2013;> 8
+    ;; (count-leaves tree) ==> 8
 
-    ;;  (count-leaves &rsquo;()) &#x2013;> 0
+    ;;  (count-leaves '()) ==> 0
 
-    ;; (count-leaves &rsquo;(1 2 3 4)) &#x2013;> 4
+    ;; (count-leaves '(1 2 3 4)) ==> 4
 
 Voila! The soution seems to work. It might not be the most efficient solution,
 but the framework described above served as a good vehicle for understanding
