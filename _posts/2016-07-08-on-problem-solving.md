@@ -43,7 +43,7 @@ that counts the number of leaves of any given tree.
 
 ### What is the problem?<a id="orgheadline2"></a>
 
-Given a tree structure or object, identify the number of leaves or nodes in the tree.
+Given a tree structure or object, identify the number of leaves or nodes on the tree.
 
 ### What is the unkown?<a id="orgheadline3"></a>
 
