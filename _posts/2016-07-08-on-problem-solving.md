@@ -101,7 +101,7 @@ problem.
 
 ## Now the implementation<a id="orgheadline12"></a>
 
-    Tree ::= () | (Atom . Tree)
+    ;; Tree ::= () | (Atom . Tree)
 
     ;; count-leaves: Tree ==> Int
     ;; usage: (count-leaves Tree) ==> Int
