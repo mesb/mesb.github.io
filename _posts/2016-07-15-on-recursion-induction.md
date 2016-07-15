@@ -175,7 +175,7 @@ The recurrence equation can do the following:
 
 multiply *a* by *a ^ (b-1)* times.
 
-*a ^ b = a x [ a ^ (b -1) ]**
+*a ^ b = a x [ a ^ (b -1) ]*
 
 But the operation (b - 1) can go on forever. When do we stop? This question can be answered by
 (3) above. We stop when *b = 1*. Interestingly, this thinking leads us to a
