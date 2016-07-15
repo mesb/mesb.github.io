@@ -104,9 +104,9 @@ This tiny art of proving a theorem or law for such huge sets and using the steps
 we used above is called *proof by recurrence*. Poincare had this to say about
 proof by recurrence a.k.a proof by induction:
 
-/The essential characteristic of reasoning by recurrence is that it
+*The essential characteristic of reasoning by recurrence is that it
 contains, condensed, so to speak, in a single formula, an infinite number of
-syllogisms./
+syllogisms.**
 
 To contrast this approach with that of the physicial sciences, we observe a
 similar flow of the monotony of the experiments, but a little further into the
@@ -151,7 +151,8 @@ values of our experiment or procedure, and we feed the values to our recurrence.
 Below is an example to drive home the idea of recursion.
 
 Suppose we want to construct a power function. That is a function of the form:
-    *f : a x b &#x2014;> c*
+
+*f : a x b &#x2014;> c*
 
 *a ^ b = c*
 
@@ -174,14 +175,16 @@ The recurrence equation can do the following:
 
 multiply *a* by *a ^ (b-1)* times.
 
-/a ^ b = a x [ a ^ (b -1) ] /
+*a ^ b = a x [ a ^ (b -1) ]**
 
 But the operation (b - 1) can go on forever. When do we stop? This question can be answered by
 (3) above. We stop when *b = 1*. Interestingly, this thinking leads us to a
 use case problem. What happends of we receive a task to compute *b ^ 0)*? Well,
 interestingly, the power function is itself a machine or procedure with its own
 rules, which uses as a mechanism the multiplication procedure. According to the
-laws of power functions, *a ^ 0 = 1*
+laws of power functions,
+
+*a ^ 0 = 1*
 
 *a ^ 0 = 1* -----------&#x2013;&#x2014; (4)
 
@@ -201,14 +204,20 @@ the values arrived at on the base and its successors back through a series of de
 Let us make this implementation concrete by expressing it in a programming
 language called scheme.
 
-;; pow: a x b ----> c
-;; usage: (pow a b) ----> Int
-(define pow
-    (lambda (a, b)
-        (if (= b 0) 1
-            (a \* (pow a (- b 1))))))
+    ;; pow: a x b ----> c
 
-;; (pow 2 3) ---> 8
+    ;; usage: (pow a b) ----> Int
+
+    (define pow
+
+        (lambda (a, b)
+
+            (if (= b 0) 1
+
+                (a \* (pow a (- b 1))))))
+
+
+    ;; (pow 2 3) ---> 8
 
 **Recurrence**: pow
 By recursion we supply *a* and *b* to the recurrence **pow** to obtain the result
