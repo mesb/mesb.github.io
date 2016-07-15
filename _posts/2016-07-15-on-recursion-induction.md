@@ -87,7 +87,7 @@ It follows that
 
 also evident from definition (1). And
 
-/(a + b) + (w + 1) = a + (b + w + 1) = a + [b + (w + 1)];
+*(a + b) + (w + 1) = a + (b + w + 1) = a + [b + (w + 1)];*
 
 which establishes that truth of the law for *w + 1*. Hence, the law is true for
 *c = 1*, true for *c = 2*, *c = 3* etc.
