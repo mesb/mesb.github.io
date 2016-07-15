@@ -205,17 +205,11 @@ Let us make this implementation concrete by expressing it in a programming
 language called scheme.
 
     ;; pow: a x b ----> c
-
     ;; usage: (pow a b) ----> Int
-
     (define pow
-
         (lambda (a, b)
-
             (if (= b 0) 1
-
                 (a \* (pow a (- b 1))))))
-
 
     ;; (pow 2 3) ---> 8
 
