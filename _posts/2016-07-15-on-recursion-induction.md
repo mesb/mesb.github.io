@@ -106,7 +106,7 @@ proof by recurrence a.k.a proof by induction:
 
 *The essential characteristic of reasoning by recurrence is that it
 contains, condensed, so to speak, in a single formula, an infinite number of
-syllogisms.**
+syllogisms.*
 
 To contrast this approach with that of the physicial sciences, we observe a
 similar flow of the monotony of the experiments, but a little further into the
