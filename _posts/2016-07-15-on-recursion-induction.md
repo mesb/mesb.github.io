@@ -214,6 +214,7 @@ language called scheme.
     ;; (pow 2 3) ---> 8
 
 **Recurrence**: pow
+
 By recursion we supply *a* and *b* to the recurrence **pow** to obtain the result
 *c*
 
