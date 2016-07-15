@@ -209,7 +209,7 @@ language called scheme.
     (define pow
         (lambda (a, b)
             (if (= b 0) 1
-                (a \* (pow a (- b 1))))))
+                (a * (pow a (- b 1))))))
 
     ;; (pow 2 3) ---> 8
 
