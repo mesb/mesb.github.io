@@ -131,7 +131,7 @@ recurrences for experimentation. Induction has a precise and definite starting
 point, something like *n = 1* and has no end. It allows us to pursue infinite
 cases.
 
-Induction and recursion have thing in common, and that is *recurrences*.
+Induction and recursion have a thing in common, and that is *recurrences*.
 Induction is a bottom-up construction process, most often from *n = 1*  to
 infinity. A recurrence as described by Poincaré enables us to use the same
 device on an infinite set of test cases. Hence, recursion and induction differ
@@ -162,7 +162,7 @@ recurrence. And by recursion, we can put this recurrence to use, specifying *a*
 and *b* accordingly to obtain *c*.
 
 Let&rsquo;s contruct our recurrence. For multiplication, we begin with the
-commutatinve law:
+commutative law:
 
 *a x 1* = *1 x a;*   -------&#x2013;&#x2014; (3)
 
