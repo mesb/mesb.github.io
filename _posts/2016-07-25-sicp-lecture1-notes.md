@@ -5,7 +5,6 @@ publish: true
 ---
 
 # SICP Lecture 1 Part I<a id="orgheadline12"></a>
-
 "Computer science is a terrible name for this business" are the magical words
 Professor Hal begins the lecture with. The name computer science is an example of
 confusion between the tools used in a science, for the science itself. Much in
@@ -50,6 +49,7 @@ In computer science, we create abstractions of physical systems and represent
 them as much as we want, as much as we can idealize them.
 
 ## Ways of managing complexity<a id="orgheadline8"></a>
+
 
 ### Blackbox abstraction<a id="orgheadline4"></a>
 
@@ -96,7 +96,6 @@ computation.
     So we should be able to talk about knowledge that talks about other knowledge.
 
 ### Conventional Interfaces<a id="orgheadline5"></a>
-
 After composing our abstractions, how do we use similar syntax or words to
 express the same kind of operation on different types of objects? For example:
 
@@ -123,8 +122,8 @@ Ways of using Conventional interfaces:
 3.  Object-oriented programming
 4.  Operations on aggregates
 
-### Making new languages<a id="orgheadline7"></a>
 
+### Making new languages<a id="orgheadline7"></a>
 The third technic of controlling complexity is to pick a new language that
 highlights major constructs of the problem we are solving.
 
@@ -137,13 +136,11 @@ highlights major constructs of the problem we are solving.
     3.  Register Machines
 
 ## Some Questions<a id="orgheadline10"></a>
-
 By now, it is evident that the center of computer science is the effective
 decription and management of processes, especially as the systems they describe
 get larger and larger. Some questions?
 
 ### What do we use to describe processes?<a id="orgheadline9"></a>
-
 We use programming languages to describe computational processes. And the
 question goes deeper because languages are formalized by a process in the
 first place. More on this.
