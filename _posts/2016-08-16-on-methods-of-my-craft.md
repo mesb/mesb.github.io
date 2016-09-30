@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A few applications of the Unix alias command
+title: On the methods of my craft
 publish: true
 ---
 
