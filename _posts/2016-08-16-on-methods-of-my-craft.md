@@ -1,8 +1,10 @@
 ---
 layout: post
-title: On methods of my craft
+title: A few applications of the Unix alias command
 publish: true
 ---
+
+# On the methods of my craft
 
 Programming has art, science and craftmanship in it. It is really hard to
 capture exactly what it is about, for the various practitioners think about it
@@ -26,7 +28,7 @@ little about all the possible uses of the equipment. It is impossible to
 enumerate all the kinds of operations that will be performed on the
 hardware. Needless to imagine the details of the operations. Will be hardware
 be used to run snapChat, or build photoshop? These are all questions that
-the manufacturers of computers can&rsquo;t answer or even predict.
+the manufacturers of computers can't answer or even predict.
 
 However, the very basic nature of computing operations can be captured and
 implemented in hardware. Some of such operations are:
