@@ -26,7 +26,7 @@ general and the computer's CPU in particular can do is called its instruction
 set. At the point of manufacturing these hardware componnents, the creators know
 little about all the possible uses of the equipment. It is impossible to
 enumerate all the kinds of operations that will be performed on the
-hardware. Needless to imagine the details of the operations. Will be hardware
+hardware. Needless to imagine the details of the operations. Will the hardware
 be used to run snapChat, or build photoshop? These are all questions that
 the manufacturers of computers can't answer or even predict.
 
