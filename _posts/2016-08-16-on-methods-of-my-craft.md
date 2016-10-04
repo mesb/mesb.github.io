@@ -57,9 +57,9 @@ working, so they again do what was done at the layer of the hardware, although
 at this point it becomes higher level.
 
 At this level of extension, the most essential aspects of the system software
-are captured, implemented and exposed to the users of system via an interface
+are captured, implemented and exposed to the users of the system via an interface
 called the &ldquo;system calls.&rdquo; In essence, the system calls are higher level
-relative to the hardware, but are lowever level relative to the kinds of
+relative to the hardware, but are lower level relative to the kinds of
 problems and solutions in the upcoming universes of problems and
 solutions. What then can be done to resolve this issue?
 
@@ -72,8 +72,7 @@ programmers might not have an idea of the exact information that the
 applications will be dealing with. They solve this problem in the old school
 way we have described above; they extend the programs with data.
 
-Application programs are often built for a set of permissible data called its
-input. Most application programs also return results called output. In the same
+Application programs are often built for a set of permissible data called input. Most application programs also return results called output. In the same
 way that application programs extend system software, data or input sets extend
 static application programs. Such extensions neatly fit together and today we
 can see how changed our world is. What is the next kind of extension we need?
@@ -81,6 +80,6 @@ can see how changed our world is. What is the next kind of extension we need?
 Our world is made of an infinitude of problems and may be solutions. Resources
 are scarce. We are constantly faced with the issue of targeting this infinitude
 with a finite set of tools, ideas and solutions. By extending our relatively
-finite systems, we achieve wider systems that can tackle the infinitde set of
+finite systems, we achieve wider systems that can tackle the infinite set of
 probems we began with. Inherently, we try to capture the infite with the
 finite.
