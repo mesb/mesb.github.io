@@ -1,10 +1,10 @@
+
 ---
 layout: post
-title: Python's dynamic type system!
+title: An application of logarithms
 publish: true
 ---
-
-# On one application of logarithms
+# An application of logarithms
 
 Logarithms play an essential role in numerical computations. First, what are
 they?
@@ -18,23 +18,25 @@ obtain the power *x<sup>n</sup>*.
 
 The number *x* is called the base or root and the number *n* is called the exponent.
 Together, *x<sup>n</sup>* is called a power. It's also very important to name results of
-operations, hence, let's call the result of raising *x* to the *n/th power, /y*.
+operations, hence, let's call the result of raising *x* to the *n* -th power,
+*y*.
 
 This implies that, *x<sup>n</sup>* = *y*. The number *y* can now be seen as the
 power *x<sup>n</sup>*, by virtue of equality. A practical example is *2<sup>3</sup>*, which is *8*. The investigator is always busy searching
 for unkowns. Suppose we are given an incomplete power and demanded to analyse
-it and determine the unkown. Suppose instead of stating that *2<sup>3</sup>* is *8*, we are
-asked the question: what is *2<sup>3</sup>*?
+it and determine the unkown. 
 
-The response is easy, we say,/2<sup>3</sup>/ = *8*.
+Suppose instead of stating that *2<sup>3</sup>* is *8*, we are asked the question: what is *2<sup>3</sup>*?
+
+The response is easy, we say, *2<sup>3</sup>* = *8*.
 
 What if we are asked, what is the exponent *x*, such that *2* raised to
 *x* would yield *8*. That is if *2<sup>x</sup> = 8*, what is the value of *x* ?
 
-The algebraist would say, *x* is *3*. The number *8* can be expressed as *2<sup>3</sup>*. Hence,
-the relation above can be written as *2<sup>x</sup> = 2<sup>3</sup>*. The number *8* has been replaced
-by its equivalent *2<sup>3</sup>*. Comparing both sides, we gain insight that the left hand
-side can be resolved into *8* by substituting *3* for *x*. Therefore, *x = 3*, and that's the result.
+The algebraist would say, *x* is *3*. The number *8* can be expressed as
+ *2<sup>3</sup>*.Hence, the relation above can be written as *2<sup>x</sup> = 2<sup>3</sup>*. The number *8*
+ has been replaced by its equivalent *2<sup>3</sup>*. Comparing both sides, we gain
+ insight that the left hand side can be resolved into *8* by substituting *3* for *x*. Therefore, *x = 3*, and that's the result.
 
 The word lograrithm can be taken to mean the synonym for exponent. We'll see
 how. Suppose we are given the power *2<sup>3</sup>* and are asked to name its parts.
@@ -79,6 +81,7 @@ this *characteristic* which will show us one beautiful application of
 logarithms.
 
 *log(1) = 0*
+
 *log(2) = 0.30102999566*
 
 The *characteristic* is *log(2) is 0*
@@ -86,13 +89,16 @@ The *characteristic* is *log(2) is 0*
 Hence, we know and we can see that all the numbers less than *10* will have
 a characteristic of *0*. And we can conclude that every single digit number
 has a characteristic of *0*. We can further conclude that a characteristic
-of \[ 0 \] implies that a number in question is single-digit. 
+of *0* implies that a number in question is single-digit. 
 
 How about numbers greater than *10*?
 
 *log (12) = 1.07918124605*
+
 *log (99) = 1.9956351946*
+
 *log (123) = 2.08990511144*
+
 *log (321) = 2.5065050324*
 
 So far, single digit numbers have a *characteristic* of *0*, double digit numbers
@@ -103,8 +109,11 @@ Is there a pattern in this development?
 Let's test for numbers with quadruple, quintuple, sextuple and septuple digits.
 
 *log(1234) = 3.0913151597*, 4 digits with a characteristic of 3.
+
 *log(12345) = 4.09149109427*, 5 digits with a characteristic of 4.
+
 *log(123456) = 5.09151220163*, 6 digits with a characteristic of 5.
+
 *log(1234567) = 6.09151466409*, 7 digits with a characteristic of 6.
 
 The pattern is, an *n*-th digit has a *characteristic*  of *n - 1*. And we
@@ -123,7 +132,7 @@ write a program that computes the length of digits of an integer by computing
 the logarithm, taking the characteristic of the result and adding *1* to it.
 
 
-<a id="orgb315aab"></a>
+<a id="org1d75b46"></a>
 
 ## Simple algorithm for computing the length of an integer
 
