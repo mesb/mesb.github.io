@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Python's dynamic type system!
+title: An application of logarithms
 publish: true
 ---
+
 
 # On one application of logarithms
 
@@ -132,7 +133,7 @@ write a program that computes the length of digits of an integer by computing
 the logarithm, taking the characteristic of the result and adding \[ 1 \] to it.
 
 
-<a id="org62853ae"></a>
+<a id="orgd75c2e2"></a>
 
 ## Simple algorithm for computing the length of an integer
 
@@ -150,9 +151,12 @@ arguments.
 
     import math
     """
-    numDigits receives an integer as an argument and returns the number of digits it has.
-    It computes the length of digits using logs, and int function to extract the integral part.
-    For each input, it obtains its absolute value, then it computes the log, and returns the integral part of the result
+    numDigits receives an integer as an argument 
+    and returns the number of digits it has.
+    It computes the length of digits using logs, 
+    and int function to extract the integral part.
+    For each input, it obtains its absolute value, 
+    then it computes the log, and returns the integral part of the result
     """
     def numDigits(n):
         num = abs(n)
@@ -186,8 +190,10 @@ remainders.
 
     import math
     """
-    numDigits2 receives an integer as an argument and returns the number of digits it has.
-    It computes the length of digits by recursively counting the digits
+    numDigits2 receives an integer as an argument 
+    and returns the number of digits it has.
+    It computes the length of digits by 
+    recursively counting the digits
     """
     def numDigits2(n):
         num = abs(n)
