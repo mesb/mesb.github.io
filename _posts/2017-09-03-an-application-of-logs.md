@@ -1,9 +1,9 @@
-
 ---
 layout: post
 title: An application of logarithms
 publish: true
 ---
+
 # An application of logarithms
 
 Logarithms play an essential role in numerical computations. First, what are
@@ -31,7 +31,9 @@ Suppose instead of stating that *2<sup>3</sup>* is *8*, we are asked the questio
 The response is easy, we say, *2<sup>3</sup>* = *8*.
 
 What if we are asked, what is the exponent *x*, such that *2* raised to
-*x* would yield *8*. That is if *2<sup>x</sup> = 8*, what is the value of *x* ?
+*x* would yield *8*. 
+
+That is if *2<sup>x</sup> = 8*, what is the value of *x* ?
 
 The algebraist would say, *x* is *3*. The number *8* can be expressed as
  *2<sup>3</sup>*.Hence, the relation above can be written as *2<sup>x</sup> = 2<sup>3</sup>*. The number *8*
@@ -132,7 +134,7 @@ write a program that computes the length of digits of an integer by computing
 the logarithm, taking the characteristic of the result and adding *1* to it.
 
 
-<a id="org1d75b46"></a>
+<a id="org42b8cdd"></a>
 
 ## Simple algorithm for computing the length of an integer
 
