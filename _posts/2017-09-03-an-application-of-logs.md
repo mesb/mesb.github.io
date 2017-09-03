@@ -4,17 +4,16 @@ title: An application of logarithms
 publish: true
 ---
 
-
 # On one application of logarithms
 
 Logarithms play an essential role in numerical computations. First, what are
 they?
 
 If you multiply a number 1 time by itself, you obtain a power of that number.
-Typically \[ 2 * 2 = 2^2 \].
+Typically 2 \* 2 = 2<sup>2</sup>.
 
-From this it follows that if you multiply a number, \[ x\], by itself, \[ n \] times, you
-obtain the power \[ x ^ n \].
+From this it follows that if you multiply a number,  *x*, by itself, *n* times, you
+obtain the power *x ^ n*.
 
 The number \[ x \] is called the base or root and the number \[ n \] is called the exponent.
 Together, \[ x ^ n \] is called a power. It's also very important to name results of
@@ -133,7 +132,7 @@ write a program that computes the length of digits of an integer by computing
 the logarithm, taking the characteristic of the result and adding \[ 1 \] to it.
 
 
-<a id="orgd75c2e2"></a>
+<a id="org8edde6d"></a>
 
 ## Simple algorithm for computing the length of an integer
 
@@ -151,12 +150,7 @@ arguments.
 
     import math
     """
-    numDigits receives an integer as an argument 
-    and returns the number of digits it has.
-    It computes the length of digits using logs, 
-    and int function to extract the integral part.
-    For each input, it obtains its absolute value, 
-    then it computes the log, and returns the integral part of the result
+    numDigits receives an integer as an argument and returns its number of digits.
     """
     def numDigits(n):
         num = abs(n)
@@ -190,10 +184,8 @@ remainders.
 
     import math
     """
-    numDigits2 receives an integer as an argument 
-    and returns the number of digits it has.
-    It computes the length of digits by 
-    recursively counting the digits
+    A variant of the numDigit function.
+    This one uses a chain of recursive calls.
     """
     def numDigits2(n):
         num = abs(n)
