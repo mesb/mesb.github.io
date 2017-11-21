@@ -31,7 +31,7 @@ Suppose instead of stating that *2<sup>3</sup>* is *8*, we are asked the questio
 The response is easy, we say, *2<sup>3</sup>* = *8*.
 
 What if we are asked, what is the exponent *x*, such that *2* raised to
-*x* would yield *8*. 
+*x* would yield *8*?
 
 That is if *2<sup>x</sup> = 8*, what is the value of *x* ?
 
@@ -59,20 +59,32 @@ Also, *x<sup>n</sup> = y*, hence, *log(x<sup>n</sup>) = log(y) = n*.
 
 Summarily, in the entire universe of numbers, every integer can be represented as
 a logarithm. The logarithm of any integer can be expressed as a decimal
-fraction. Since, our natural base for arithmetic is base *10*, every integer can
+fraction. Since, our natural base for arithmetic is *10*, every integer can
 be expressed as a logarithm in the base of *10*.
 
 Let's investigate further. The question will be, what number can we raise *10* to,
-in order to obtain *10* itself. The answer is *1*. The number *10*
-raised to the power *1* is *10*. Hence, *log(10<sup>1</sup>) = 1*.
+in order to obtain *10* itself?
+
+The answer is *1*. 
+
+The number *10* raised to the power *1* is *10*. 
+
+Hence, *log(10<sup>1</sup>) = 1*.
+
 Logarithms are not defined for negative numbers, and this throws some light on
 the development of logarithms of numbers in base 10.
 
 Precisely, we can ask the question, how does the logarithm behave for numbers
 greater than *0*, but less than *10*, and how does it equally behave for numbers
-greater than *10*. We know that *log(10) = 1*. Hence, the logarithms of
+greater than *10*?
+
+We know that *log(10) = 1*. 
+
+Hence, the logarithms of
 numbers less than *10* should be less than *1*, and the logarithms of numbers
-greater than *10* should be greater than *1*. Similarly, numbers less than *10*
+greater than *10* should be greater than *1*. 
+
+Similarly, numbers less than *10*
 have single digits and numbers greater than or equal to *10*  have multiple
 digits. 
 
