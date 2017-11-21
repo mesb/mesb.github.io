@@ -85,13 +85,14 @@ numbers less than *10* should be less than *1*, and the logarithms of numbers
 greater than *10* should be greater than *1*. 
 
 Similarly, numbers less than *10*
-have single digits and numbers greater than or equal to *10*  have multiple
+have a single digit and numbers greater than or equal to *10*  have multiple
 digits. 
 
 Back to the assertion that logarithms can be expressed using decimal fractions.
 Decimal fractions often have 2 parts: an integral part which appears before the
-".", and the fractional part which appears after. The integral part of a
-decimal fraction in the case of logarithms is called its *characteristic*. It is
+".", and the fractional part which appears after. 
+
+The integral part of a decimal fraction in the case of logarithms is called its *characteristic*. It is
 this *characteristic* which will show us one beautiful application of
 logarithms.
 
