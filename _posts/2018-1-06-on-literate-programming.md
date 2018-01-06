@@ -7,7 +7,6 @@ publish: true
 # Notes on Literate Programming<a id="sec-1" name="sec-1"></a>
 
 ## A brief look at programming<a id="sec-1-1" name="sec-1-1"></a>
-
 In the most general sense, people come across programs in most of
 their daily endeavors. The idea of "programs" and "programming" is so
 common that hanging out with peers for one or two drinks is termed
@@ -46,7 +45,6 @@ As a result, programming involves organizing a set of activities
 that collectively lead us to achieve a certain goal.
 
 ## A brief look at computer programming<a id="sec-1-2" name="sec-1-2"></a>
-
 Armed with knowledge that programs and programming in the real
 world is just a set of activities that enable us to achieve a
 certain goal, we may be able to examine the practice of computer
@@ -97,7 +95,6 @@ to instruct the computer on the intricacies of the necessary
 activities.
 
 ## Computer languages and computer programming<a id="sec-1-3" name="sec-1-3"></a>
-
 We use natural languages like the English language, French, Ewondo
 and Spanish to communicate as the need arises. Similarly, computer
 languages are used for communicating with computers. Every computer
@@ -325,7 +322,8 @@ demonstrated below:
         cur_max = 0 # set default maximum to be the first element
         lst_size = len(lst)  # obtain the number of elements in the list
 
-        # now run through each of the elements and compare the element to the current maximum
+        # now run through each of the elements
+        # and compare the element to the current maximum
         for i in range(1, lst_size):
             if lst[cur_max] < lst[i]:
                 cur_max = i # the element at position i becomes new maximum element
@@ -379,7 +377,6 @@ does not help in very large systems.
 Then comes the technique of **Literate Programming**
 
 ## On the birth of literate programming<a id="sec-1-5" name="sec-1-5"></a>
-
 Literate programming is a technique of programming in which a
 programmer considers herself to be composing a work of literature,
 although she may actually be writing computer programs. That is,
@@ -447,7 +444,6 @@ concepts at hand to the deepest of levels and gain more
 understanding.
 
 ## Platforms supporting literate programming<a id="sec-1-6" name="sec-1-6"></a>
-
 The original platform that Knuth developed for literate programming
 is called **WEB**. WEB is simply a collection of a document
 typesetting program and a compiler for the language used. WEB used
@@ -487,7 +483,6 @@ experiment with the programs that are supplied but  with their custom
 data.
 
 ## An example of literate programming<a id="sec-1-7" name="sec-1-7"></a>
-
 Conceivably, it's better to demonstrate the technique of literate programming using
 the maximum element example that was described and implemented
 above. The sections that follow are an attempt to capture the
@@ -497,13 +492,11 @@ and techniques in both natural language and code is the goal of the
 ensuing sections.
 
 ### Problem definition<a id="sec-1-7-1" name="sec-1-7-1"></a>
-
 Given an arbitrarily sized list of numbers, develop a computer
 program that will find the index(position) of the largest element
 in the list.
 
 ### My exploration of the problem<a id="sec-1-7-2" name="sec-1-7-2"></a>
-
 The problem asks us to find the maximum number of any finite list
 of numbers. The input is a list of any size in the range 0 to N,
 where N is a countable number. Computers are fast, but memory is
@@ -545,7 +538,6 @@ finite or limited to the amount of space we can handle.
     the elements of a collection in ascending or descending order.
 
 ### Algorithm for the maximum element problem<a id="sec-1-7-3" name="sec-1-7-3"></a>
-
 An algorithm refers to the technique that is employed to solve a
 given problem. An algorithm is like a prescription of the
 instructions and the time to apply them in the whole course of
@@ -577,7 +569,6 @@ OUTPUT: The index of the largest element in the list
 8.  Return cur<sub>max</sub> as the answer. Terminate program
 
 ### A plain implementation of the algorithm above in Ocaml<a id="sec-1-7-4" name="sec-1-7-4"></a>
-
 An implementation in the Ocaml programming language
 
 **Quick notes on Ocaml**
@@ -667,6 +658,7 @@ More about ocaml can be found [here](https://caml.inria.fr/pub/docs/oreilly-book
     4
 
 **Commentary on the code above**
+
 An Ocaml list has the form HEAD::TAIL. The underscore symbol(\_) is
 used to ignore elements. Hence, **head::\_** means ignore tail and
 return only the head of the list. Similarly, **\_::tail** means,
@@ -766,7 +758,6 @@ A simple code block that prepares a list of numbers.
     3
 
 ### Some interesting observations<a id="sec-1-7-6" name="sec-1-7-6"></a>
-
 Literate programming on Emacs + Org-mode allows a practitioner to use
 different languages for different tasks and equally allows
 stakeholders to share data from programs that are implemented in
@@ -805,14 +796,14 @@ written in.
 
     - [152; 320; 176; 410; 192; 470; 27; 32; 148; 533]
 
-Now there is this little idealized  device called **make<sub>list</sub><sub>elts</sub>** that
+Now there is this little idealized  device called **make_list_elts** that
 generates random numbers. So one can test the max finder
-program on the lists that **make<sub>list</sub><sub>elts</sub>** generates.
+program on the lists that **make_list_elts** generates.
 
 A good test, as demonstrated below, involves creating 5 lists and
 using them as this note unfolds.
 
-**Examples of using make<sub>list</sub><sub>elts</sub>**
+**Examples of using make_list_elts**
 
     let list1 = make_list_elts [] 10;;
     let list2 = make_list_elts [] 15;;
@@ -878,7 +869,7 @@ program in this file can use the results.
     - 287
     - - : unit = ()
 
-**The elements of list3 are presented below sing the list<sub>printer</sub> program**
+**The elements of list3 are presented below using the list_printer program**
 
     list_printer list3;;
 
