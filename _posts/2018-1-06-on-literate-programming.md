@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An application of logarithms
+title: Notes on Literate Programming
 publish: true
 ---
 
