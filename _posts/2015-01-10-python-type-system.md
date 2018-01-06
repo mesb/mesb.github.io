@@ -45,7 +45,7 @@ object.
 When we say age = 25, we are assigning a reference called 'age' to the
 object 25. So the type is tied to the object. This makes variable assignment,
 and manipulation the work of the interpreter, as opposed to the manual
-assignment/management of such tasks by the programmer.
+assignment/management of such task by the programmer.
 
 So, 25 is an object managed by Python. It has a type, a reference count, and other
 metadata used by python.
@@ -71,10 +71,10 @@ a = 5
 does not changed the object pointed to by b. All what happens is, a now points
 to 5, while b points to the value(object) 3.
 
-However, mutable compound data types like lists, dictionaries, sets and maybe
+However, mutable compund data types like lists, dictionaries, sets and maybe
 files observe this kind of manipulation differently. They permit in place
 mutation. Meaning, one of the values in a sequence can be changed, and all
-variables or references pointing to that sequence will be updated.
+varibales pointing to that sequence will be updated.
 
 e.g
 
