@@ -4,9 +4,42 @@ title: Notes on Literate Programming
 publish: true
 ---
 
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Notes on Literate Programming</a>
+<ul>
+<li><a href="#sec-1-1">1.1. A brief look at programming</a></li>
+<li><a href="#sec-1-2">1.2. A brief look at computer programming</a></li>
+<li><a href="#sec-1-3">1.3. Computer languages and computer programming</a></li>
+<li><a href="#sec-1-4">1.4. Contemporary Computer Programming</a></li>
+<li><a href="#sec-1-5">1.5. On the birth of literate programming</a></li>
+<li><a href="#sec-1-6">1.6. Platforms supporting literate programming</a></li>
+<li><a href="#sec-1-7">1.7. An example of literate programming</a>
+<ul>
+<li><a href="#sec-1-7-1">1.7.1. Problem definition</a></li>
+<li><a href="#sec-1-7-2">1.7.2. My exploration of the problem</a></li>
+<li><a href="#sec-1-7-3">1.7.3. Algorithm for the maximum element problem</a></li>
+<li><a href="#sec-1-7-4">1.7.4. A plain implementation of the algorithm above in Ocaml</a></li>
+<li><a href="#sec-1-7-5">1.7.5. Implementation of the maximum finder algorithm in ruby</a></li>
+<li><a href="#sec-1-7-6">1.7.6. Some interesting observations</a></li>
+<li><a href="#sec-1-7-7">1.7.7. Applying the lessons from above to the other 4 lists</a></li>
+<li><a href="#sec-1-7-8">1.7.8. Extra Musings</a></li>
+<li><a href="#sec-1-7-9">1.7.9. Resources for literate Programming</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
 # Notes on Literate Programming<a id="sec-1" name="sec-1"></a>
 
 ## A brief look at programming<a id="sec-1-1" name="sec-1-1"></a>
+
 In the most general sense, people come across programs in most of
 their daily endeavors. The idea of "programs" and "programming" is so
 common that hanging out with peers for one or two drinks is termed
@@ -45,6 +78,7 @@ As a result, programming involves organizing a set of activities
 that collectively lead us to achieve a certain goal.
 
 ## A brief look at computer programming<a id="sec-1-2" name="sec-1-2"></a>
+
 Armed with knowledge that programs and programming in the real
 world is just a set of activities that enable us to achieve a
 certain goal, we may be able to examine the practice of computer
@@ -95,6 +129,7 @@ to instruct the computer on the intricacies of the necessary
 activities.
 
 ## Computer languages and computer programming<a id="sec-1-3" name="sec-1-3"></a>
+
 We use natural languages like the English language, French, Ewondo
 and Spanish to communicate as the need arises. Similarly, computer
 languages are used for communicating with computers. Every computer
@@ -252,7 +287,7 @@ machine language.
 
 ## Contemporary Computer Programming<a id="sec-1-4" name="sec-1-4"></a>
 
-As observed above. Computer programming involves relaying
+As observed above, computer programming involves relaying
 instructions to the computer. A set of related instructions all
 working for a common goal constitute a computer program. A web
 browser, for example, is a program. It is written in some language
@@ -322,8 +357,8 @@ demonstrated below:
         cur_max = 0 # set default maximum to be the first element
         lst_size = len(lst)  # obtain the number of elements in the list
 
-        # now run through each of the elements
-        # and compare the element to the current maximum
+        # now run through each of the elements and
+        # compare the element to the current maximum
         for i in range(1, lst_size):
             if lst[cur_max] < lst[i]:
                 cur_max = i # the element at position i becomes new maximum element
@@ -343,6 +378,9 @@ demonstrated below:
     ex2 = [75, 23.4, 100.456, 34, 54]
     pos2 = find_max(ex2)
     print "Maximum element is ", ex2[pos2], " which is at position ", pos2
+
+Maximum element is  94  which is at position  6
+Maximum element is  100.456  which is at position  2
 
 The code snippet above is a small program that finds the maximum
 element from a finite sequence of numbers.
@@ -377,6 +415,7 @@ does not help in very large systems.
 Then comes the technique of **Literate Programming**
 
 ## On the birth of literate programming<a id="sec-1-5" name="sec-1-5"></a>
+
 Literate programming is a technique of programming in which a
 programmer considers herself to be composing a work of literature,
 although she may actually be writing computer programs. That is,
@@ -444,6 +483,7 @@ concepts at hand to the deepest of levels and gain more
 understanding.
 
 ## Platforms supporting literate programming<a id="sec-1-6" name="sec-1-6"></a>
+
 The original platform that Knuth developed for literate programming
 is called **WEB**. WEB is simply a collection of a document
 typesetting program and a compiler for the language used. WEB used
@@ -469,7 +509,7 @@ the means for typing descriptions or our works of literature, while
 the configured languages are used for the programs themselves.
 
 Most interestingly, Emacs + Org-mode enable one to run code as they
-are develped. CWEB and WEB systems allow us to develop our
+are developed. CWEB and WEB systems allow us to develop our
 documents and programs, then extract and/or publish the works. We
 write, then extract the program's code, run them and fix any
 errors. These are separate tasks that require practitioners to
@@ -483,6 +523,7 @@ experiment with the programs that are supplied but  with their custom
 data.
 
 ## An example of literate programming<a id="sec-1-7" name="sec-1-7"></a>
+
 Conceivably, it's better to demonstrate the technique of literate programming using
 the maximum element example that was described and implemented
 above. The sections that follow are an attempt to capture the
@@ -492,11 +533,13 @@ and techniques in both natural language and code is the goal of the
 ensuing sections.
 
 ### Problem definition<a id="sec-1-7-1" name="sec-1-7-1"></a>
+
 Given an arbitrarily sized list of numbers, develop a computer
 program that will find the index(position) of the largest element
 in the list.
 
 ### My exploration of the problem<a id="sec-1-7-2" name="sec-1-7-2"></a>
+
 The problem asks us to find the maximum number of any finite list
 of numbers. The input is a list of any size in the range 0 to N,
 where N is a countable number. Computers are fast, but memory is
@@ -538,6 +581,7 @@ finite or limited to the amount of space we can handle.
     the elements of a collection in ascending or descending order.
 
 ### Algorithm for the maximum element problem<a id="sec-1-7-3" name="sec-1-7-3"></a>
+
 An algorithm refers to the technique that is employed to solve a
 given problem. An algorithm is like a prescription of the
 instructions and the time to apply them in the whole course of
@@ -554,21 +598,22 @@ problems.
 **An Algorithm for finding max element in a list**
 
 INPUT: List of size n, where n is a nonnegative number
-       List of elements has form: X1, X2, X3, X4, &#x2026;Xn.
+       List of elements has form: X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub>, X<sub>4</sub>, &#x2026;X<sub>n</sub>.
 OUTPUT: The index of the largest element in the list
 
-1.  Set cur<sub>max</sub> to 0, that is make the first element the
+1.  Set cur-max to 0, that is make the first element the
     circulating maximum
-2.  Set current<sub>max</sub><sub>element</sub> to X0.
+2.  Set current-max-element to X<sub>0</sub>.
 3.  set counter to 1; Let "i" be counter. i = 1
 4.  test if there are more elements in the list: if i > n-1, go to
     step 8
-5.  If Xi less than or equal to the  current<sub>max</sub><sub>element</sub>, go to step 7
-6.  cur<sub>max</sub> = i; current<sub>max</sub><sub>element</sub> = Xi
+5.  If Xi less than or equal to the  current-max-element, go to step 7
+6.  cur-max = i; current<sub>max</sub>-element = X<sub>i</sub>
 7.  Increment counter; i = i+1; go to step 4
-8.  Return cur<sub>max</sub> as the answer. Terminate program
+8.  Return cur-max as the answer. Terminate program
 
 ### A plain implementation of the algorithm above in Ocaml<a id="sec-1-7-4" name="sec-1-7-4"></a>
+
 An implementation in the Ocaml programming language
 
 **Quick notes on Ocaml**
@@ -657,8 +702,9 @@ More about ocaml can be found [here](https://caml.inria.fr/pub/docs/oreilly-book
 
     4
 
-**Commentary on the code above**
+    4
 
+**Commentary on the code above**
 An Ocaml list has the form HEAD::TAIL. The underscore symbol(\_) is
 used to ignore elements. Hence, **head::\_** means ignore tail and
 return only the head of the list. Similarly, **\_::tail** means,
@@ -749,15 +795,19 @@ network management, and rapid prototype testing.
      return  max_index
      end
 
-    -1
+-1
+-1
 
 A simple code block that prepares a list of numbers.
 
     l= [34, 54, 12, 89, 23]
 
+    | 34 | 54 | 12 | 89 | 23 |
+
     3
 
 ### Some interesting observations<a id="sec-1-7-6" name="sec-1-7-6"></a>
+
 Literate programming on Emacs + Org-mode allows a practitioner to use
 different languages for different tasks and equally allows
 stakeholders to share data from programs that are implemented in
@@ -794,16 +844,16 @@ written in.
 
     make_list_elts [] 10;;
 
-    - [152; 320; 176; 410; 192; 470; 27; 32; 148; 533]
+[89; 269; 344; 463; 471; 222; 175; 406; 38; 21]
 
-Now there is this little idealized  device called **make_list_elts** that
+Now there is this little idealized  device called **make<sub>list</sub><sub>elts</sub>** that
 generates random numbers. So one can test the max finder
-program on the lists that **make_list_elts** generates.
+program on the lists that **make<sub>list</sub><sub>elts</sub>** generates.
 
 A good test, as demonstrated below, involves creating 5 lists and
 using them as this note unfolds.
 
-**Examples of using make_list_elts**
+**Examples of using make<sub>list</sub><sub>elts</sub>**
 
     let list1 = make_list_elts [] 10;;
     let list2 = make_list_elts [] 15;;
@@ -822,6 +872,8 @@ list
 
     <fun>
 
+<fun>
+
 Another little device that displays the contents of a given list.
 
 At this point, the elements of a list can be printed and the
@@ -836,130 +888,130 @@ program in this file can use the results.
 
     list_printer list1;;
 
-    - 300
-    - 507
-    - 522
-    - 345
-    - 482
-    - 273
-    - 164
-    - 132
-    - 296
-    - 416
+    - 475
+    - 375
+    - 38
+    - 63
+    - 218
+    - 43
+    - 60
+    - 21
+    - 6
+    - 118
     - - : unit = ()
 
 **A display of the elements of list 2**
 
     list_printer list2;;
 
-    - 74
-    - 445
-    - 350
-    - 92
-    - 386
-    - 17
-    - 416
-    - 19
-    - 514
+    - 412
+    - 58
+    - 259
+    - 260
+    - 157
+    - 379
     - 291
-    - 308
-    - 316
-    - 236
-    - 371
-    - 287
+    - 12
+    - 286
+    - 180
+    - 434
+    - 16
+    - 174
+    - 389
+    - 321
     - - : unit = ()
 
-**The elements of list3 are presented below using the list_printer program**
+**The elements of list3 are presented below sing the list-printer program**
 
     list_printer list3;;
 
-    - 307
-    - 345
-    - 160
-    - 146
-    - 476
-    - 343
-    - 400
-    - 305
-    - 240
-    - 354
-    - 174
-    - 414
-    - 40
-    - 242
-    - 375
-    - 66
-    - 236
-    - 64
-    - 198
-    - 92
+    - 14
+    - 189
+    - 239
+    - 73
+    - 300
+    - 194
+    - 110
+    - 176
+    - 348
+    - 366
+    - 225
+    - 396
+    - 214
+    - 533
+    - 328
+    - 119
+    - 349
+    - 415
+    - 257
+    - 511
     - - : unit = ()
 
 **A display of the fourth list that was randomly generated**
 
     list_printer list4;;
 
-    - 442
-    - 95
-    - 204
-    - 488
-    - 454
-    - 188
-    - 262
-    - 247
-    - 198
-    - 305
-    - 265
-    - 523
-    - 93
-    - 388
-    - 229
+    - 284
+    - 500
+    - 8
+    - 525
+    - 1
     - 331
-    - 141
-    - 5
-    - 15
-    - 498
-    - 89
-    - 334
-    - 288
-    - 434
-    - 41
+    - 318
+    - 39
+    - 395
+    - 343
+    - 401
+    - 481
+    - 282
+    - 515
+    - 514
+    - 147
+    - 261
+    - 73
+    - 68
+    - 74
+    - 520
+    - 170
+    - 162
+    - 483
+    - 459
     - - : unit = ()
 
 **And finally the last list, list 5 is displayed yonder**
 
     list_printer list5
 
-    - 414
-    - 6
-    - 375
-    - 339
-    - 434
-    - 341
-    - 112
-    - 501
-    - 525
-    - 69
-    - 153
-    - 524
-    - 182
-    - 467
-    - 166
-    - 460
-    - 224
-    - 105
-    - 455
-    - 187
-    - 171
-    - 181
-    - 4
-    - 442
-    - 459
-    - 97
-    - 303
-    - 462
-    - 193
-    - 366
+    - 519
+    - 196
+    - 228
+    - 70
+    - 98
+    - 515
+    - 413
+    - 326
+    - 158
+    - 1
+    - 169
+    - 411
+    - 493
+    - 262
+    - 493
+    - 376
+    - 431
+    - 478
+    - 355
+    - 247
+    - 39
+    - 221
+    - 227
+    - 183
+    - 172
+    - 27
+    - 10
+    - 83
+    - 61
+    - 388
     - - : unit = ()
 
 At this point, the various lists: list1, list2, list3, list4,
@@ -1005,13 +1057,13 @@ There is the need for  a small ruby program that returns the type/kind
 
     puts lst.class
 
-    String
+String
+
+String
 
 The *class* of an object tells of its kind/type.
 
 The result reports that lst=list1 is of type String.
-
-    String
 
 This implies that Emacs + Org-mode received the list from Ocaml in
 this text document and automatically converted that result into
@@ -1025,14 +1077,12 @@ a data object.
 
     puts lst.inspect
 
-    "300\n507\n522\n345\n482\n273\n164\n132\n296\n416\n\n- : unit = ()"
+"475\n375\n38\n63\n218\n43\n60\n21\n6\n118\n\n- : unit = ()"
 
 The result shows that the elements are combined into 1 single
 string, but each individual element is demarcated from the next
 with the "\n"(the newline character). Hence, the elements are
 arranged in a sequence that has a vertical orientation.
-
-    "503\n230\n4\n429\n36\n515\n174\n377\n383\n435\n\n- : unit = ()"
 
 All the elements of the list above are strings, that is,
 collections of characters. We therefore have to go through all of
@@ -1049,9 +1099,9 @@ is like the joint where the split function applies its slicing.
     puts result.class
     puts result[0]
 
-    ["300", "507", "522", "345", "482", "273", "164", "132", "296", "416", "", "- : unit = ()"]
-    Array
-    300
+["475", "375", "38", "63", "218", "43", "60", "21", "6", "118", "", "- : unit = ()"]
+Array
+475
 
 Splitting the string of characters at the "\n" joint disorientates
 the vertical arrangement. The "\n" makes the next element assume
@@ -1080,18 +1130,18 @@ from the last element, and then chopping off data from that position.
         i += 1
     }
 
-    300 is at position: 0
-    507 is at position: 1
-    522 is at position: 2
-    345 is at position: 3
-    482 is at position: 4
-    273 is at position: 5
-    164 is at position: 6
-    132 is at position: 7
-    296 is at position: 8
-    416 is at position: 9
-     is at position: 10
-    - : unit = () is at position: 11
+475 is at position: 0
+375 is at position: 1
+38 is at position: 2
+63 is at position: 3
+218 is at position: 4
+43 is at position: 5
+60 is at position: 6
+21 is at position: 7
+6 is at position: 8
+118 is at position: 9
+ is at position: 10
+- : unit = () is at position: 11
 
 The result above shows that the last element is "- : unit = (),"
 and the last but one is "". So we can eliminate the last 2
@@ -1106,12 +1156,10 @@ We can do that using python
     results = lst.split("\n")
     print results
 
-    ['300', '507', '522', '345', '482', '273', '164', '132', '296', '416', '', '- : unit = ()']
+['475', '375', '38', '63', '218', '43', '60', '21', '6', '118', '', '- : unit = ()']
 
 As expected, the resulting object is an array. Note that the code above is
 python, while the first time we split the string we used ruby.
-
-    ['503', '230', '4', '429', '36', '515', '174', '377', '383', '435', '', '- : unit = ()']
 
 We now have a list of the elements, but in the same form that
 Ocaml originally produced. It looks like we are wasting time going in
@@ -1131,9 +1179,6 @@ python's facilities for slicing strings.
     result = results[0:list_length-2]
     result = [int(x) for x in result]
     return result
-
-After slicing off the unwanted data, a clean an fresh list is
-returned.
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1161,24 +1206,27 @@ returned.
 </colgroup>
 <tbody>
 <tr>
-<td class="right">300</td>
-<td class="right">507</td>
-<td class="right">522</td>
-<td class="right">345</td>
-<td class="right">482</td>
-<td class="right">273</td>
-<td class="right">164</td>
-<td class="right">132</td>
-<td class="right">296</td>
-<td class="right">416</td>
+<td class="right">475</td>
+<td class="right">375</td>
+<td class="right">38</td>
+<td class="right">63</td>
+<td class="right">218</td>
+<td class="right">43</td>
+<td class="right">60</td>
+<td class="right">21</td>
+<td class="right">6</td>
+<td class="right">118</td>
 </tr>
 </tbody>
 </table>
 
-A quick test of the *max<sub>finder</sub><sub>ruby</sub>* function on the newly
+After slicing off the unwanted data, a clean an fresh list is
+returned.
+
+A quick test of the *max-finder-ruby* function on the newly
 prepared list. And it works.
 
-    2
+    0
 
 And voila! We have a clean list without any "" or  "- : unit = ()"
 
@@ -1240,28 +1288,28 @@ languages.
 </colgroup>
 <tbody>
 <tr>
-<td class="right">74</td>
-<td class="right">445</td>
-<td class="right">350</td>
-<td class="right">92</td>
-<td class="right">386</td>
-<td class="right">17</td>
-<td class="right">416</td>
-<td class="right">19</td>
-<td class="right">514</td>
+<td class="right">412</td>
+<td class="right">58</td>
+<td class="right">259</td>
+<td class="right">260</td>
+<td class="right">157</td>
+<td class="right">379</td>
 <td class="right">291</td>
-<td class="right">308</td>
-<td class="right">316</td>
-<td class="right">236</td>
-<td class="right">371</td>
-<td class="right">287</td>
+<td class="right">12</td>
+<td class="right">286</td>
+<td class="right">180</td>
+<td class="right">434</td>
+<td class="right">16</td>
+<td class="right">174</td>
+<td class="right">389</td>
+<td class="right">321</td>
 </tr>
 </tbody>
 </table>
 
 **The maximum element of the sequence is captured below**
 
-    8
+    10
 
 **The second run is on list3. The list is clean and the max  element extracted**
 
@@ -1316,31 +1364,31 @@ languages.
 </colgroup>
 <tbody>
 <tr>
-<td class="right">307</td>
-<td class="right">345</td>
-<td class="right">160</td>
-<td class="right">146</td>
-<td class="right">476</td>
-<td class="right">343</td>
-<td class="right">400</td>
-<td class="right">305</td>
-<td class="right">240</td>
-<td class="right">354</td>
-<td class="right">174</td>
-<td class="right">414</td>
-<td class="right">40</td>
-<td class="right">242</td>
-<td class="right">375</td>
-<td class="right">66</td>
-<td class="right">236</td>
-<td class="right">64</td>
-<td class="right">198</td>
-<td class="right">92</td>
+<td class="right">14</td>
+<td class="right">189</td>
+<td class="right">239</td>
+<td class="right">73</td>
+<td class="right">300</td>
+<td class="right">194</td>
+<td class="right">110</td>
+<td class="right">176</td>
+<td class="right">348</td>
+<td class="right">366</td>
+<td class="right">225</td>
+<td class="right">396</td>
+<td class="right">214</td>
+<td class="right">533</td>
+<td class="right">328</td>
+<td class="right">119</td>
+<td class="right">349</td>
+<td class="right">415</td>
+<td class="right">257</td>
+<td class="right">511</td>
 </tr>
 </tbody>
 </table>
 
-    4
+    13
 
 **The fourth run on list4 uses Ocaml again, although with some tricks**
 Ocaml is a very beautiful language. I'm going to use some of its
@@ -1421,31 +1469,31 @@ features.
 </colgroup>
 <tbody>
 <tr>
-<td class="right">442</td>
-<td class="right">95</td>
-<td class="right">204</td>
-<td class="right">488</td>
-<td class="right">454</td>
-<td class="right">188</td>
-<td class="right">262</td>
-<td class="right">247</td>
-<td class="right">198</td>
-<td class="right">305</td>
-<td class="right">265</td>
-<td class="right">523</td>
-<td class="right">93</td>
-<td class="right">388</td>
-<td class="right">229</td>
+<td class="right">284</td>
+<td class="right">500</td>
+<td class="right">8</td>
+<td class="right">525</td>
+<td class="right">1</td>
 <td class="right">331</td>
-<td class="right">141</td>
-<td class="right">5</td>
-<td class="right">15</td>
-<td class="right">498</td>
-<td class="right">89</td>
-<td class="right">334</td>
-<td class="right">288</td>
-<td class="right">434</td>
-<td class="right">41</td>
+<td class="right">318</td>
+<td class="right">39</td>
+<td class="right">395</td>
+<td class="right">343</td>
+<td class="right">401</td>
+<td class="right">481</td>
+<td class="right">282</td>
+<td class="right">515</td>
+<td class="right">514</td>
+<td class="right">147</td>
+<td class="right">261</td>
+<td class="right">73</td>
+<td class="right">68</td>
+<td class="right">74</td>
+<td class="right">520</td>
+<td class="right">170</td>
+<td class="right">162</td>
+<td class="right">483</td>
+<td class="right">459</td>
 </tr>
 </tbody>
 </table>
@@ -1479,7 +1527,7 @@ stands for the accumulator. The other pieces were temporary workers.
     (setq len (length res))
     (subseq res 1 (- len 5))
 
-    1
+    0
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1505,20 +1553,20 @@ stands for the accumulator. The other pieces were temporary workers.
 </colgroup>
 <tbody>
 <tr>
-<td class="right">507</td>
-<td class="right">522</td>
-<td class="right">345</td>
-<td class="right">482</td>
-<td class="right">273</td>
-<td class="right">164</td>
-<td class="right">132</td>
-<td class="right">296</td>
-<td class="right">416</td>
+<td class="right">375</td>
+<td class="right">38</td>
+<td class="right">63</td>
+<td class="right">218</td>
+<td class="right">43</td>
+<td class="right">60</td>
+<td class="right">21</td>
+<td class="right">6</td>
+<td class="right">118</td>
 </tr>
 </tbody>
 </table>
 
-    1
+    0
 
 **Emacs-Lisp**
 Emacs-lisp is a dialect of LISP that serves as the main scripting
@@ -1577,7 +1625,7 @@ enjoyable every step becomes.
 Most of the code written above is irrelevant. The little functions
 that we composed were not the most efficient, the process of
 conceiving them and bringing them to life surpasses their final
-form they've taken. Moreoever, as an exercise of the venerable art
+form they've taken. Moreover, as an exercise of the venerable art
 of literate program, the programs written above are akin to some
 draft documents that perhaps an essayist or some poet may decide to
 give a shot at, as a recreational activity. But on the most
