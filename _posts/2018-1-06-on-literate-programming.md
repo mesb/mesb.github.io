@@ -1246,7 +1246,7 @@ languages.
     result = [int(x) for x in result]
     return result
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table width="100%" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -1312,7 +1312,7 @@ languages.
     result = results.slice(0, list_length-2)
     return result
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table width="100%" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -1407,7 +1407,7 @@ features.
                               in
                              (max_finder res);;
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table width="100%" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
