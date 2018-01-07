@@ -1174,7 +1174,7 @@ python's facilities for slicing strings.
     result = [int(x) for x in result]
     return result
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table width="100%"  border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
