@@ -1087,20 +1087,16 @@ above. We can collect every element before "\n" into a new list as
 shown below. Ruby has a function called split(separator) that
 splits a string into its component elements, where the separator
 is like the joint where the split function applies its slicing.
-    <div style="font-size: 10p">
 
     result = lst.split("\n")
     puts result.inspect
     puts result.class
     puts result[0]
 
-
     ["465", "109", "52", "128", "473", "478", "323", "302", "165", "515", "", "- : unit = ()"]
     Array
     465
 
-
-    </div>
 Splitting the string of characters at the "\n" joint disorientates
 the vertical arrangement. The "\n" makes the next element assume
 the first position on a new line. Hence, getting rid of it
