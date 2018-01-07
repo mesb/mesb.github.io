@@ -34,9 +34,11 @@ publish: true
 </ul>
 </div>
 </div>
-
+<p> </P
 <hr/>
 <br />
+
+
 # Notes on Literate Programming<a id="sec-1" name="sec-1"></a>
 
 ## A brief look at programming<a id="sec-1-1" name="sec-1-1"></a>
@@ -78,7 +80,6 @@ As a result, programming involves organizing a set of activities
 that collectively lead us to achieve a certain goal.
 
 ## A brief look at computer programming<a id="sec-1-2" name="sec-1-2"></a>
-
 Armed with knowledge that programs and programming in the real
 world is just a set of activities that enable us to achieve a
 certain goal, we may be able to examine the practice of computer
@@ -129,7 +130,6 @@ to instruct the computer on the intricacies of the necessary
 activities.
 
 ## Computer languages and computer programming<a id="sec-1-3" name="sec-1-3"></a>
-
 We use natural languages like the English language, French, Ewondo
 and Spanish to communicate as the need arises. Similarly, computer
 languages are used for communicating with computers. Every computer
@@ -703,6 +703,7 @@ More about ocaml can be found [here](https://caml.inria.fr/pub/docs/oreilly-book
 4
 
 **Commentary on the code above**
+
 An Ocaml list has the form HEAD::TAIL. The underscore symbol(\_) is
 used to ignore elements. Hence, **head::\_** means ignore tail and
 return only the head of the list. Similarly, **\_::tail** means,
