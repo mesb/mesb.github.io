@@ -1,9 +1,3 @@
----
-layout: post
-title: Notes on Literate Programming
-publish: true
----
-
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
@@ -43,9 +37,6 @@ publish: true
 </ul>
 </div>
 </div>
-<p> </p>
-<hr/>
-<br />
 
 
 # Notes on Literate Programming<a id="sec-1" name="sec-1"></a>
@@ -1185,7 +1176,7 @@ python's facilities for slicing strings.
     result = [int(x) for x in result]
     return result
 
-<table style="font-size: 9px;" width="100%" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -1257,7 +1248,7 @@ languages.
     result = [int(x) for x in result]
     return result
 
-<table style="font-size: 9px;" width="100%" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -1323,7 +1314,7 @@ languages.
     result = results.slice(0, list_length-2)
     return result
 
-<table style="font-size: 9px;" width="100%" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -1418,7 +1409,7 @@ features.
                               in
                              (max_finder res);;
 
-<table style="font-size: 9px;" width="100%" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
@@ -1534,7 +1525,7 @@ stands for the accumulator. The other pieces were temporary workers.
 
     7
 
-<table style="font-size: 9px;" width="100%" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>

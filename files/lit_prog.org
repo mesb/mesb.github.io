@@ -1510,18 +1510,18 @@
    As mentioned above, this blog post is a demonstration of that fine
    practice called /literate programming/. The blog post itself is a
    literate program. A collection of little programs were developed,
-   executed and their results are added in sections of this
-   document. The web page you are viewing is simply an end product of
+   executed and their results are added to sections of this
+   document. The web page you may be viewing is simply an end product of
    a literate programming session. The original draft document that
-   bore the pure source code and the explanatory texts were composed
+   contained the pure source code and the explanatory material were composed
    in Emacs using Org-mode. Org-mode is simply a system for editing
    text files. But it provides some simpler and intuitive tools for
    making the tasks enjoyable and more productive.
 
    This document started its life like any other text file. However,
-   it was composed in a kind of file called an /org/ which has the
+   it was composed in a kind of file called an /org file/ which has the
    ".org" file extension. Emacs automatically recognizes such files as
-   Org-mode files and it provides the various facilities that Org-mode
+   Org-mode files and Emacs provides the various facilities that Org-mode
    employs to foster the composition of text files. Org-mode is also a
    powerful publishing system. Many books have been written with the
    assistance of Org-mode. It provides facilities for incorporating
@@ -1530,54 +1530,86 @@
    documents.
 
    Equally important is Org-mode's support for /Reproducible Research
-   (RR)/. Reproducible Research is technique that allows researches to
+   (RR)/. Reproducible Research is a technique that allows researchers to
    publish their works together with fully animated modules, often in
    the form of computer programs that users can tinker with. In so
-   doing, others can follow the steps underlined by the researcher and
+   doing, others can follow the steps underlined by the researchers and
    also test their works against other sets of data. Such a practice
-   leads to fast implicit peer-reviews and eventually to better
-   circulation of scientific works and other works that implement RR.
+   leads to fast and implicit peer-reviews and eventually to better
+   circulation of scientific works.
 
    This document was developed under the auspices of both /Literate
    Programming/ and /Reproducible Research/. The original source file
    for this blog post has active programs that can be run by any one
-   who has access to file, provided they have the powerful tools,
+   who has access to the file, provided they have the powerful tools,
    Emacs and Org-mode.
 
    Org-mode provides a simple language for describing and typesetting
-   documents. A typical *H1* header in Org-mode is  the asterisk(*)
+   documents. A typical *H1* header to Org-mode is  the asterisk(*)
    operator. An *H2* header is 2 asterisks and so on. Paragraphs and
    headers and the most simple literary tools for composing documents
-   of many sorts. Thus, the simple language Org-mode provides is
-   sufficient for capturing the literary aspects of /Literate
+   of many sorts. Lists and tables come natural to Org-mode
+   users. Thus, the simple language Org-mode provides is sufficient
+   for capturing the literary aspects of /Literate
    Programming/. Incidentally, Org-mode can be made more powerful with
    the help of more specific and powerful document preparation systems
-   like LaTeX. Actually, LateX is embedded in Org-mode. Now about the
-   programming parts.
+   like LaTeX. In fact, LateX is embedded in Org-mode.
+
+   Now how about the programming parts?
 
    Org-mode makes provisions for adding source code to the text files
    under its support. These provision are in the form of text sections
-   but which harbor source code for computer programs. Such sections
-   are called /code blocks/. A good block is specified by the use of
-   the keywords: "BEGIN_SRC ..... END_SRC". This block is further
-   configured, in a very simple way, in order to let Org-mode know the
-   kinds of languages it will deal with and so that it can invoke the
-   correct compilers and interpreters. Once program source code is
-   written within the /code blocks/, they can be tested and interacted
-   with like normal computer programs. The source code can be
-   extracted and utilized separately, or the source code and the
-   descriptive text or work of literature can be exported to a
-   suitable format for circulation or publishing,
+   but these text sections  harbor source code for computer
+   programs. Such sections are called /code blocks/. A good block is
+   specified by the use of the keywords:
+
+                   BEGIN_SRC
+                     .
+                     .
+                     .
+                   END_SRC
+
+   A section is demoed below:
+
+   #+BEGIN_SRC python :export code  :results output code
+   print "This is a code block section"
+   #+END_SRC
+
+   #+RESULTS:
+   #+BEGIN_SRC python
+   This is a code block section
+   #+END_SRC
+
+
+   This block is further configured, in a very simple way, in order to
+   let Org-mode know the kinds of languages it will deal with and so
+   that it can invoke the correct compilers and interpreters. Once
+   program source code is written within the /code blocks/, they can
+   be tested and interacted with like normal computer programs. The
+   source code can be extracted and utilized separately, or the source
+   code and the descriptive text or work of literature can be exported
+   to a suitable format for circulation or publishing.
 
 
 ** Obtaining the source code for this blog post
-   Click
+   Click [[https://github.com/mesb/mesb.github.io/tree/master/files][here]] to download the original Org file for this post. If you have
+   Emacs and Org-mode installed on your computer, you can simply open
+   the downloaded file and begin playing with the code and text.
+
+   Permission is granted to copy, edit and redistribute the
+   file. However, if the contents of the file is changed, and if the
+   need for circulation of the changed file arises, then the title
+   should also be changed together with the author. That is, you can
+   change the file and redistribute it at will, but do so under your own
+   name and title, which should of course be different from mine :-)
+
+   Happy Hacking!
 
 *** Resources for literate Programming
 
     1. [[http://www.literateprogramming.com/][literate programming web resources]]
 
-    2. [[http://www.literateprogramming.com/knuthweb.pdf][Knuth 1983]]
+    2. [[http://www.literateprogramming.com/knuthweb.pdf][Knuth, Original Paper On Literate Programming]]
 
     3. [[https://en.wikipedia.org/wiki/Literate_programming][Wikipedia Page]]
 
@@ -1588,3 +1620,5 @@
     6. [[https://orgmode.org/][Org-mode page]]
 
     7. [[https://en.wikipedia.org/wiki/Org-mode][Org-mode Wikipedia Page]]
+
+    8. [[https://github.com/mesb/mesb.github.io/tree/master/files][The Org File For This Post]]
