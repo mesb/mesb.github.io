@@ -35,6 +35,8 @@ publish: true
 </div>
 </div>
 
+<br />
+<hr/>
 
 # Notes on Literate Programming<a id="sec-1" name="sec-1"></a>
 
