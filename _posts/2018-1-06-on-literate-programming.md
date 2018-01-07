@@ -35,13 +35,11 @@ publish: true
 </div>
 </div>
 
-<br />
 <hr/>
-
+<br />
 # Notes on Literate Programming<a id="sec-1" name="sec-1"></a>
 
 ## A brief look at programming<a id="sec-1-1" name="sec-1-1"></a>
-
 In the most general sense, people come across programs in most of
 their daily endeavors. The idea of "programs" and "programming" is so
 common that hanging out with peers for one or two drinks is termed
