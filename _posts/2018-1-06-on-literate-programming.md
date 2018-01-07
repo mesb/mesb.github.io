@@ -4,36 +4,6 @@ title: Notes on Literate Programming
 publish: true
 ---
 
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1. Notes on Literate Programming</a>
-<ul>
-<li><a href="#sec-1-1">1.1. A brief look at programming</a></li>
-<li><a href="#sec-1-2">1.2. A brief look at computer programming</a></li>
-<li><a href="#sec-1-3">1.3. Computer languages and computer programming</a></li>
-<li><a href="#sec-1-4">1.4. Contemporary Computer Programming</a></li>
-<li><a href="#sec-1-5">1.5. On the birth of literate programming</a></li>
-<li><a href="#sec-1-6">1.6. Platforms supporting literate programming</a></li>
-<li><a href="#sec-1-7">1.7. An example of literate programming</a>
-<ul>
-<li><a href="#sec-1-7-1">1.7.1. Problem definition</a></li>
-<li><a href="#sec-1-7-2">1.7.2. My exploration of the problem</a></li>
-<li><a href="#sec-1-7-3">1.7.3. Algorithm for the maximum element problem</a></li>
-<li><a href="#sec-1-7-4">1.7.4. A plain implementation of the algorithm above in Ocaml</a></li>
-<li><a href="#sec-1-7-5">1.7.5. Implementation of the maximum finder algorithm in ruby</a></li>
-<li><a href="#sec-1-7-6">1.7.6. Some interesting observations</a></li>
-<li><a href="#sec-1-7-7">1.7.7. Applying the lessons from above to the other 4 lists</a></li>
-<li><a href="#sec-1-7-8">1.7.8. Extra Musings</a></li>
-<li><a href="#sec-1-7-9">1.7.9. Resources for literate Programming</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
 
 
 # Notes on Literate Programming<a id="sec-1" name="sec-1"></a>
@@ -1654,6 +1624,8 @@ spartan craft of software development. But imagine capturing the
 exact understanding behind a given procedure in some descriptive
 form, as if you were writing a book for your future self and for
 others. Such and many more are the benefits of literate programming.
+
+
 
 ### Resources for literate Programming<a id="sec-1-7-9" name="sec-1-7-9"></a>
 
