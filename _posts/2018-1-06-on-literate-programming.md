@@ -9,7 +9,6 @@ publish: true
 # Notes on Literate Programming<a id="sec-1" name="sec-1"></a>
 
 ## A brief look at programming<a id="sec-1-1" name="sec-1-1"></a>
-
 In the most general sense, people come across programs in most of
 their daily endeavors. The idea of "programs" and "programming" is so
 common that hanging out with peers for one or two drinks is termed
@@ -48,7 +47,6 @@ As a result, programming involves organizing a set of activities
 that collectively lead us to achieve a certain goal.
 
 ## A brief look at computer programming<a id="sec-1-2" name="sec-1-2"></a>
-
 Armed with knowledge that programs and programming in the real
 world is just a set of activities that enable us to achieve a
 certain goal, we may be able to examine the practice of computer
@@ -99,7 +97,6 @@ to instruct the computer on the intricacies of the necessary
 activities.
 
 ## Computer languages and computer programming<a id="sec-1-3" name="sec-1-3"></a>
-
 We use natural languages like the English language, French, Ewondo
 and Spanish to communicate as the need arises. Similarly, computer
 languages are used for communicating with computers. Every computer
@@ -256,7 +253,6 @@ convert the sentences we write into sentences of the underlying
 machine language.
 
 ## Contemporary Computer Programming<a id="sec-1-4" name="sec-1-4"></a>
-
 As observed above, computer programming involves relaying
 instructions to the computer. A set of related instructions all
 working for a common goal constitute a computer program. A web
@@ -675,6 +671,7 @@ More about ocaml can be found [here](https://caml.inria.fr/pub/docs/oreilly-book
     4
 
 **Commentary on the code above**
+
 An Ocaml list has the form HEAD::TAIL. The underscore symbol(\_) is
 used to ignore elements. Hence, **head::\_** means ignore tail and
 return only the head of the list. Similarly, **\_::tail** means,
@@ -777,7 +774,6 @@ A simple code block that prepares a list of numbers.
     3
 
 ### Some interesting observations<a id="sec-1-7-6" name="sec-1-7-6"></a>
-
 Literate programming on Emacs + Org-mode allows a practitioner to use
 different languages for different tasks and equally allows
 stakeholders to share data from programs that are implemented in
@@ -1471,6 +1467,7 @@ features.
     21
 
 **Some powerful features of Ocaml**
+
 The most prominent feature in the code above is the
 *List.fold<sub>left</sub>* function. It's simply a mechanism for walking
 through the elements of list, processing each element and adding
@@ -1628,6 +1625,7 @@ others. Such and many more are the benefits of literate programming.
 
 
 ### Resources for literate Programming<a id="sec-1-7-9" name="sec-1-7-9"></a>
+
 
 1.  [literate programming web resources](http://www.literateprogramming.com/)
 
