@@ -67,7 +67,7 @@ Leonard Euler, a very prominent 18th century mathematician,
 commenced one of his seminal works titled, *Elements of Algrebra*,
 by investigating something called **QUANTITY**. He said, "whatever is
 capable of increase or diminution is called magnitude, or
-quantity. It follows from this declarations that there are many
+quantity." It follows from this declaration that there are many
 kinds of magnitude or quantity. The amount of money one has in the
 bank is quantified. Expenditures have the sly nature of decreasing
 this sum while some kind of profitable earnings have the virtue of
