@@ -1,3 +1,8 @@
+---
+layout: post
+title: Notes on counting and problem solving
+publish: true
+---
 
 # Table of Contents
 
