@@ -9,12 +9,12 @@
   If you, like me, have wondered what the life and use of a number is,
   then read on. Let's peep through the keyhole of this note with the
   hopes of seeing the very little that will be allowed on the livelihood of
-  numbers. This notes explore some techniques of counting, especially
+  numbers. These notes explore some techniques of counting, especially
   the techniques for counting the number of steps taken in solving a
   problem so that the problem solver can have an idea of the amount of
   work that needs to be done. The post also explores some of the basic
   techniques involved in making mathematical formulae. After all, a
-  formula is just an expression of the pattern that arises in a
+  formula is just an expression of a pattern that arises in a
   collection of objects and which provides a tool for reporting
   information about the collected objects without necessarily
   examining all the objects in the collection.
@@ -24,24 +24,24 @@
   commenced one of his seminal works titled, /Elements of Algrebra/,
   by investigating something called *QUANTITY*. He said, "whatever is
   capable of increase or diminution is called magnitude, or
-  quantity. It follows from this declarations that there are many
+  quantity." It follows from this declaration that there are many
   kinds of magnitude or quantity. The amount of money one has in the
   bank is quantified. Expenditures have the sly nature of decreasing
   this sum while some kind of profitable earnings have the virtue of
-  increasing this sum. Similarly, the temperature goes up and down,
+  increasing it. Similarly, the temperature goes up and down,
   the gas in a car goes up and down as the car is used. Almost
   everything changes in a way that can be quantified. This makes
   quantities to show up everywhere.
 
   Consequently, there are so many types of quantity that different
-  disciples have been developed for measuring these quantities. The
+  disciplines have been developed for measuring these quantities. The
   accountant under the discipline of accounting tracks down
-  quantities. The physicist tries to track down forms of quantities
+  quantities. The physicist tries to track down forms of quantity
   when she investigates things like temperatures, speeds, and
   motion. The statistician, the probability expert, the geometer, the
   banker, the real estate manager, and even the shepherd are all
   involved in the investigation of quantity. The various branches of
-  mathematics and even most of the scientists are fields for
+  mathematics and even most of the sciences are fields for
   investigating different types of quantity. Additionally, Euler
   defined Mathematics as the "science which investigates the means of
   measuring quantity." It appears that all quantities can be expressed
@@ -51,7 +51,7 @@
 ** The sect that worshiped numbers
   Around the 6th century BCE, there was a sect of philosophers called
   the Pythagoreans who were so fascinated by the beauty and nature of
-  numbers that they worshiped numbers. The Pythagoreans realized that
+  numbers that they worshiped these numbers. The Pythagoreans realized that
   everything can be represented with numbers. One major contribution
   of this school is in the field of music theory. It is said that
   Pythagoras was passing by a blacksmith's shop one day and instead of
@@ -59,7 +59,7 @@
   metals, he realized some kind of harmony in the sounds that
   resonated. He stepped in to see, further, for himself, what was
   going on. He realized that different hammers and tools of different
-  shapes, lengths and sizes produced different kinds of sounds as they
+  shapes, lengths and sizes produced different kinds of sound as they
   stroke other surfaces.
 
   It's compelling to note that lengths, shapes and sizes of such tools
@@ -71,11 +71,11 @@
   strings with the same length that had the same tension and thickness
   ended up sounding the same when stroke. They discovered that if the
   lengths were different, but the same tension and thickness
-  maintained, the sound produced where different. This difference
-  testified to the pitches and the various pitches in the hands of a
-  the good made some good music. Long story short, the idea of music
-  intervals was borne. Today there are intervals in music with names
-  like the Perfect fifth(3:2), the unison(1:1) and the octave(2:1).
+  maintained, the sounds produced were different. This difference
+  testified to the pitches and the various pitches in the hands of the good made
+  some good music. Long story short, the idea of music intervals was borne.
+  Today there are intervals in music with names like the Perfect fifth(3:2), the
+  unison(1:1) and the octave(2:1). 
 
 ** On counting and numbers
    Counting seems to be one of the prominent application of
@@ -84,7 +84,7 @@
    the elements that make up a collection. The purpose may be to
    identify each element with a unique number or in some cases to get
    a sense of the total number of elements in a
-   collections. Essentially, counting is a good tool for
+   collection. Essentially, counting is a good tool for
    accounting. Counting enables the counter to get an account of the
    elements of a collection.
 
@@ -97,7 +97,7 @@
    elements in a collection because of the addition operation that is
    provided by arithmetic. The basic operations of addition, subtraction,
    multiplication, and division are wonderful operations that
-   permitting counters to make numbers out of other numbers. In the
+   permit counters to make numbers out of other numbers. In the
    course of applying these operations on numbers, beautiful patterns
    emerge some of which we shall see in this post.
 
@@ -110,12 +110,12 @@
    total number of times the bus will stop at all the stop points in
    the set of neighborhoods they deal with.
 
-   As simple as this problem sounds, it is a gateway into computer
+   As simple as this problem appears to be, it is a gateway into computer
    science.
 
-   As it stands, the bus driver and her company is in the process of
+   As it stands, the bus driver and her company are in the process of
    solving a transportation problem. Their task is to transport a
-   bunch of kids to and from school. Their technique is to use a
+   group of kids to and from school. Their technique is to use a
    school bus, visit a series of stop points, then board and unboard the
    kids. Suppose further more that, by some stroke of luck, it happens
    that at the first neighborhood there is 1 stop to pick up the
@@ -123,7 +123,7 @@
    stops for the next neighborhood and so on. That is, If there are 10
    neighborhoods numbered and symbolized from 1..10, then each
    neighborhood also has the number of stops that matches its
-   symbol. Neighborhood number 10 will therefore have 10 steps.
+   symbol. Neighborhood number 10 will therefore have 10 stops.
 
    The task is to count the total number of stops that the bus driver
    will make during one process of picking up or dropping off the
