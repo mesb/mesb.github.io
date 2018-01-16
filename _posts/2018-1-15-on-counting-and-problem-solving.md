@@ -6,60 +6,60 @@ publish: true
 
 # Table of Contents
 
-1.  [Introduction](#orgb038b03)
-    1.  [Euler's idea of quantities, numbers and mathematics](#orgff26f55)
-    2.  [The sect that worshiped numbers](#org092ea45)
-    3.  [On counting and numbers](#org83d627e)
-    4.  [An example of counting and an entry into computer science](#org62c41c6)
-    5.  [A formula for the counting problem above](#org12c65b0)
-    6.  [The use of the bus driver problem above in computer science](#org593094c)
-2.  [Mathematical Tools for making formulae](#orga8117a1)
-    1.  [A short look at mathematical induction](#org72cd190)
-        1.  [The main idea behind mathematical induction](#org2adb32b)
-        2.  [Steps of mathematical induction](#org825ea41)
-        3.  [The essence of proof by mathematical induction](#org441c4ea)
-    2.  [Using mathematical induction on the counting problem](#orgbf20c05)
-        1.  [The formula for the counting problem](#org0c86a88)
-        2.  [Testing Gauss's solution](#org92c5b8d)
-    3.  [Recurrences](#orge422c2a)
-        1.  [About Recurrences](#org01ba86d)
-        2.  [Recursion and Recurrences and Induction](#orge1d9f49)
-        3.  [The relationship between recursion, recurrences and induction](#org3adc8db)
-        4.  [The addition operation using recurrences, recursion and induction](#orgb2ecb47)
-        5.  [A brief look at iterations and the mathematical theory of summations](#org4b49bdb)
-    4.  [Conclusion of the mathematical tools needed](#orgf587a3b)
-3.  [A couple of examples that use the mathematical tools considered above](#orgf5fc329)
-    1.  [Counting the number of operations in a computer programming](#org7a39a37)
-        1.  [Example of a loop with varying costs](#org78865ae)
-        2.  [Using recurrences, and recursion for the varying cost problem](#org6fbc333)
-        3.  [Another interesting observation](#org3c0c302)
-    2.  [On the complex nature of recurrences](#org038c5f5)
-        1.  [Another property of the complexity of recurrences](#org6fae0f3)
-    3.  [Another solution to the recurrence \( S_n = S_{n-1} + n \)](#org49356c6)
-        1.  [Another solution to \( S_n = 1 + 2 + 3 + 4 + ... + n \)](#org1cbfb09)
-    4.  [Conclusion](#org81e25d2)
+1.  [Introduction](#orgafcb5a8)
+    1.  [Euler's idea of quantities, numbers and mathematics](#orgec9944c)
+    2.  [The sect that worshiped numbers](#org9067a58)
+    3.  [On counting and numbers](#orgd6310d3)
+    4.  [An example of counting and an entry into computer science](#org31037d3)
+    5.  [A formula for the counting problem above](#org9ade53b)
+    6.  [The use of the bus driver problem above in computer science](#org3ee899a)
+2.  [Mathematical Tools for making formulae](#org9939d3f)
+    1.  [A short look at mathematical induction](#orga3060a1)
+        1.  [The main idea behind mathematical induction](#orgfac54d9)
+        2.  [Steps of mathematical induction](#org20e87cf)
+        3.  [The essence of proof by mathematical induction](#org177d204)
+    2.  [Using mathematical induction on the counting problem](#org772bcda)
+        1.  [The formula for the counting problem](#org9e7223e)
+        2.  [Testing Gauss's solution](#org39ba0e5)
+    3.  [Recurrences](#orgeffb51b)
+        1.  [About Recurrences](#org11b6500)
+        2.  [Recursion and Recurrences and Induction](#org4b374f0)
+        3.  [The relationship between recursion, recurrences and induction](#org7ac7564)
+        4.  [The addition operation using recurrences, recursion and induction](#org00978bf)
+        5.  [A brief look at iterations and the mathematical theory of summations](#orgd2a78cd)
+    4.  [Conclusion of the mathematical tools needed](#org7599263)
+3.  [A couple of examples that use the mathematical tools considered above](#org7505d7c)
+    1.  [Counting the number of operations in a computer programming](#orgc83dc2b)
+        1.  [Example of a loop with varying costs](#org862a01e)
+        2.  [Using recurrences, and recursion for the varying cost problem](#org0e7478a)
+        3.  [Another interesting observation](#orgd3ab987)
+    2.  [On the complex nature of recurrences](#orgdfc2777)
+        1.  [Another property of the complexity of recurrences](#org306bf7f)
+    3.  [Another solution to the recurrence \( S_n = S_{n-1} + n \)](#org58393c2)
+        1.  [Another solution to \( S_n = 1 + 2 + 3 + 4 + ... + n \)](#orgb0f01a3)
+    4.  [Conclusion](#org8cc101f)
 
 
 
-<a id="orgb038b03"></a>
+<a id="orgafcb5a8"></a>
 
 # Introduction
 
 If you, like me, have wondered what the life and use of a number is,
 then read on. Let's peep through the keyhole of this note with the
 hopes of seeing the very little that will be allowed on the livelihood of
-numbers. This notes explore some techniques of counting, especially
+numbers. These notes explore some techniques of counting, especially
 the techniques for counting the number of steps taken in solving a
 problem so that the problem solver can have an idea of the amount of
 work that needs to be done. The post also explores some of the basic
 techniques involved in making mathematical formulae. After all, a
-formula is just an expression of the pattern that arises in a
+formula is just an expression of a pattern that arises in a
 collection of objects and which provides a tool for reporting
 information about the collected objects without necessarily
 examining all the objects in the collection.
 
 
-<a id="orgff26f55"></a>
+<a id="orgec9944c"></a>
 
 ## Euler's idea of quantities, numbers and mathematics
 
@@ -92,7 +92,7 @@ or dressed up as numbers. Therefore, these beautiful objects called
 numbers are at the center of it all.
 
 
-<a id="org092ea45"></a>
+<a id="org9067a58"></a>
 
 ## The sect that worshiped numbers
 
@@ -125,7 +125,7 @@ intervals was borne. Today there are intervals in music with names
 like the Perfect fifth(3:2), the unison(1:1) and the octave(2:1).
 
 
-<a id="org83d627e"></a>
+<a id="orgd6310d3"></a>
 
 ## On counting and numbers
 
@@ -153,7 +153,7 @@ course of applying these operations on numbers, beautiful patterns
 emerge some of which we shall see in this post.
 
 
-<a id="org62c41c6"></a>
+<a id="org31037d3"></a>
 
 ## An example of counting and an entry into computer science
 
@@ -215,7 +215,7 @@ As the number get bigger, it becomes more tedious to list them all
 and get their sum.
 
 
-<a id="org12c65b0"></a>
+<a id="org9ade53b"></a>
 
 ## A formula for the counting problem above
 
@@ -248,7 +248,7 @@ Let \( S(n) \) symbolize a formula that calculates the sum we seek.
 Our task is to build this formula.
 
 
-<a id="org593094c"></a>
+<a id="org3ee899a"></a>
 
 ## The use of the bus driver problem above in computer science
 
@@ -280,7 +280,7 @@ It follows that getting that formula for this problem and other
 problems of this form will be the right thing to do.
 
 
-<a id="orga8117a1"></a>
+<a id="org9939d3f"></a>
 
 # Mathematical Tools for making formulae
 
@@ -307,7 +307,7 @@ construction and proof by induction. We shall use proof by induction
 for our problems.
 
 
-<a id="org72cd190"></a>
+<a id="orga3060a1"></a>
 
 ## A short look at mathematical induction
 
@@ -362,7 +362,7 @@ as we mentioned, there elements are uncountable. The technician
 doing the test will never halt or conclude.
 
 
-<a id="org2adb32b"></a>
+<a id="orgfac54d9"></a>
 
 ### The main idea behind mathematical induction
 
@@ -389,7 +389,7 @@ we mentioned that the set may be uncountable.
 other related concepts like recursion and recurrences.
 
 
-<a id="org825ea41"></a>
+<a id="org20e87cf"></a>
 
 ### Steps of mathematical induction
 
@@ -425,7 +425,7 @@ subject. There are 3 main steps involved:
     the statement will be true for any n.
 
 
-<a id="org441c4ea"></a>
+<a id="org177d204"></a>
 
 ### The essence of proof by mathematical induction
 
@@ -449,12 +449,12 @@ pattern that recurs in the behavior or structure of the elements
 of the set.
 
 
-<a id="orgbf20c05"></a>
+<a id="org772bcda"></a>
 
 ## Using mathematical induction on the counting problem
 
 
-<a id="org0c86a88"></a>
+<a id="org9e7223e"></a>
 
 ### The formula for the counting problem
 
@@ -524,7 +524,7 @@ Therefore, \( S(n) = \frac{n(n+1)}{2} \)
 Gauss concluded that \( S(n) = \frac{n(n+1)}{2} \)
 
 
-<a id="org92c5b8d"></a>
+<a id="org39ba0e5"></a>
 
 ### Testing Gauss's solution
 
@@ -693,12 +693,12 @@ Gauss concluded that \( S(n) = \frac{n(n+1)}{2} \)
     for all values of \( n \).
 
 
-<a id="orge422c2a"></a>
+<a id="orgeffb51b"></a>
 
 ## Recurrences
 
 
-<a id="org01ba86d"></a>
+<a id="org11b6500"></a>
 
 ### About Recurrences
 
@@ -810,7 +810,7 @@ on smaller cases of the problem. Recurrences are great tools for capturing
 such self-embedding and self-referential processes.
 
 
-<a id="orge1d9f49"></a>
+<a id="org4b374f0"></a>
 
 ### Recursion and Recurrences and Induction
 
@@ -837,7 +837,7 @@ captures the commands that invoke the recurrences and on curated sizes of the
 original problem.
 
 
-<a id="org3adc8db"></a>
+<a id="org7ac7564"></a>
 
 ### The relationship between recursion, recurrences and induction
 
@@ -935,7 +935,7 @@ use recurrences, recursion and induction to get the result of adding 2
 numbers.
 
 
-<a id="orgb2ecb47"></a>
+<a id="org00978bf"></a>
 
 ### The addition operation using recurrences, recursion and induction
 
@@ -1030,6 +1030,16 @@ above:
     for i in range(1, 10):
         print "ADD(%d, %d) is %d" % (i, i-1, ADD(i, i-1))
 
+    ADD(1, 0) is 1
+    ADD(2, 1) is 3
+    ADD(3, 2) is 5
+    ADD(4, 3) is 7
+    ADD(5, 4) is 9
+    ADD(6, 5) is 11
+    ADD(7, 6) is 13
+    ADD(8, 7) is 15
+    ADD(9, 8) is 17
+
 One may wonder why there appears above the use of "+" in the very ADD
 operation that we are defining. The natural numbers come with the numbers
 and some primitive operations, two of which are: DECREMENT and INCREMENT.
@@ -1041,7 +1051,7 @@ use of "+" or "-" is merely an invocation of the primitive DECREMENT and
 INCREMENT operations.
 
 
-<a id="org4b49bdb"></a>
+<a id="orgd2a78cd"></a>
 
 ### A brief look at iterations and the mathematical theory of summations
 
@@ -1079,17 +1089,17 @@ identical to the python code fragment below:
 
     sum = 0
     for i in range(0, 9):
-         sum = sum + 1
+         sum = sum + i
     print "The sum from 0...9 is %d" % sum
 
-    The sum from 0...9 is 9
+    The sum from 0...9 is 36
 
-The mathematician will say: \( \sum\limits_{i=0}^9 i = 9 \). Hence \( \sigma
+The mathematician will say: \( \sum\limits_{i=0}^9 i = 36 \). Hence \( \sigma
     \) symbolizes repetitive addition of successive values as the iteration goes
 from the lower limit to the upper limit.
 
 
-<a id="orgf587a3b"></a>
+<a id="org7599263"></a>
 
 ## Conclusion of the mathematical tools needed
 
@@ -1134,7 +1144,7 @@ on our findings and to cement theorems and laws that will later on save us
 time. 
 
 
-<a id="orgf5fc329"></a>
+<a id="org7505d7c"></a>
 
 # A couple of examples that use the mathematical tools considered above
 
@@ -1167,7 +1177,7 @@ Fundamentally, analysing an algorithm involves a process of counting. Below
 are a few examples that show how this counting is done.
 
 
-<a id="org7a39a37"></a>
+<a id="orgc83dc2b"></a>
 
 ## Counting the number of operations in a computer programming
 
@@ -1206,7 +1216,7 @@ operations. Most of these operations cost varyingly in the different rounds
 or iterations of the loop.
 
 
-<a id="org78865ae"></a>
+<a id="org862a01e"></a>
 
 ### Example of a loop with varying costs
 
@@ -1232,7 +1242,7 @@ following mathematical expression:
 \( \sum\limits_{i=1}^n i \)
 
 
-<a id="org6fbc333"></a>
+<a id="org0e7478a"></a>
 
 ### Using recurrences, and recursion for the varying cost problem
 
@@ -1279,7 +1289,7 @@ calls bottom out at \( S_0 \).
 Hence, we can express \( \sum\limits_{i=1}^n i \) as \( S_n = S_n-1 + n \).
 
 
-<a id="org3c0c302"></a>
+<a id="orgd3ab987"></a>
 
 ### Another interesting observation
 
@@ -1331,7 +1341,7 @@ whence the recurrence ends and the recursive application is said to bottom
 out.
 
 
-<a id="org038c5f5"></a>
+<a id="orgdfc2777"></a>
 
 ## On the complex nature of recurrences
 
@@ -1390,7 +1400,7 @@ A formula like  \( S_n = \frac{n(n+1)}{2} \) is called the **CLOSED FORM** of a
 recurrence. 
 
 
-<a id="org6fae0f3"></a>
+<a id="org306bf7f"></a>
 
 ### Another property of the complexity of recurrences
 
@@ -1437,7 +1447,7 @@ As a result, solving a recurrence for a closed form is also a technique for
 obtaining the cost of that operation.
 
 
-<a id="org49356c6"></a>
+<a id="org58393c2"></a>
 
 ## Another solution to the recurrence \( S_n = S_{n-1} + n \)
 
@@ -1450,7 +1460,7 @@ a solution and then try to prove that solution. In so doing, one arrives at
 the conclusion that the **GUESS** is right or wrong.
 
 
-<a id="org1cbfb09"></a>
+<a id="orgb0f01a3"></a>
 
 ### Another solution to \( S_n = 1 + 2 + 3 + 4 + ... + n \)
 
@@ -1548,7 +1558,7 @@ What is the formula for \( S_n = 1 + 2 + ... + n \) ?
     For \( n^2 \) and with the guarantee that it has at most 2 solutions, we
     are certain that we shall set up 2 simultaneous equations. 
     
-    Also, from algrbra, any polynomial \( X \) of degree \( y \) has the form:
+    Also, from algebra, any polynomial \( X \) of degree \( y \) has the form:
     
     \( A \times X^y + B \times X^{y-1} + C \times X^{y-2} + ... + Z \times X^0 \)
     
@@ -1581,7 +1591,7 @@ What is the formula for \( S_n = 1 + 2 + ... + n \) ?
     7.  \( \Rightarrow a = \frac{1}{2} \)
     8.  Now substitute \( a = \frac{1}{2} \) in (1) above
     9.  \( \Rightarrow b = \frac{1}{1} - \frac{1}{2} = \frac{1}{2} \)
-    10. Therefore, \( a = \frac{1}{2}, and b = \frac{1}{2} \)
+    10. Therefore, \( a = \frac{1}{2}, \) and \( b = \frac{1}{2} \)
     
     It follows that \( S_n = a \cdot n^2 + b \cdot n \) is actually given by
     the form:
@@ -1597,7 +1607,7 @@ What is the formula for \( S_n = 1 + 2 + ... + n \) ?
     no need to carry out a proof, since we did that before.
 
 
-<a id="org81e25d2"></a>
+<a id="org8cc101f"></a>
 
 ## Conclusion
 
