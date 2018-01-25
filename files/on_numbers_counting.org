@@ -156,12 +156,12 @@
 
    \( 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + ... 1000 = 500500 \)
 
-   As the number get bigger, it becomes more tedious to list them all
+   As the numbers get bigger, it becomes more tedious to list them all
    and get their sum.
 
 ** A formula for the counting problem above
    What if there was a formula that we can use by plugging in the
-   number of elements we want to solve and then get the sum. That is a
+   number of elements we want to solve and then get the sum? That is a
    formula that works for sums of the form:
 
    \( 1 + 2 + 3 + 4 + 5 + 6 + ... + n \)
