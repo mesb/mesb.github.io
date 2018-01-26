@@ -6,16 +6,16 @@ publish: true
 
 # Table of Contents
 
-1.  [A brief rant on the numbers](#org1156133)
-2.  [Displaying the sum of a sequence of numbers](#org5c7b59e)
-3.  [Summing the first n odd numbers](#orgfbbaf04)
-4.  [Redisplaying the sum of the first n numbers](#org9aa7d6d)
-    1.  [Code section for the desired display](#orgc4ad74a)
-5.  [Conclusion](#orga84dd3c)
+1.  [A brief rant on the numbers](#orgee3a4b3)
+2.  [Displaying the sum of a sequence of numbers](#org995f592)
+3.  [Summing the first n odd numbers](#org852587f)
+4.  [Redisplaying the sum of the first n numbers](#org7bf89fa)
+    1.  [Code section for the desired display](#orgaa70ad8)
+5.  [Conclusion](#org3594585)
 
 
 
-<a id="org1156133"></a>
+<a id="orgee3a4b3"></a>
 
 # A brief rant on the numbers
 
@@ -72,7 +72,7 @@ dots(numbers) in different orientations as we perform some playful
 operations of addition on them.
 
 The table below shows the first 10 numbers as arrangements of a
-sequence/line of asterisks.
+sequence/line of big dots.
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -85,68 +85,68 @@ sequence/line of asterisks.
 <thead>
 <tr>
 <th scope="col" class="org-right">Number</th>
-<th scope="col" class="org-left">Asterisk Representation</th>
+<th scope="col" class="org-left">Dot Representation</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
 <td class="org-right">1</td>
-<td class="org-left">\*</td>
+<td class="org-left">o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">2</td>
-<td class="org-left">\* \*</td>
+<td class="org-left">o o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">3</td>
-<td class="org-left">\* \* \*</td>
+<td class="org-left">o o o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">4</td>
-<td class="org-left">\* \* \* \*</td>
+<td class="org-left">o o o o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">5</td>
-<td class="org-left">\* \* \* \* \*</td>
+<td class="org-left">o o o o o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">6</td>
-<td class="org-left">\* \* \* \* \* \*</td>
+<td class="org-left">o o o o o o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">7</td>
-<td class="org-left">\* \* \* \* \* \* \*</td>
+<td class="org-left">o o o o o o o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">8</td>
-<td class="org-left">\* \* \* \* \* \* \* \*</td>
+<td class="org-left">o o o o o o o o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">9</td>
-<td class="org-left">\* \* \* \* \* \* \* \* \*</td>
+<td class="org-left">o o o o o o o o o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">10</td>
-<td class="org-left">\* \* \* \* \* \* \* \* \* \*</td>
+<td class="org-left">o o o o o o o o o o</td>
 </tr>
 </tbody>
 </table>
@@ -174,7 +174,7 @@ interesting properties of numbers that can be explored further,
 alongside some additionally awe-inspiring operations.
 
 
-<a id="org5c7b59e"></a>
+<a id="org995f592"></a>
 
 # Displaying the sum of a sequence of numbers
 
@@ -223,7 +223,7 @@ representing and summing numbers using asterisks and newlines for
 plus symbols.
 
 
-<a id="orgfbbaf04"></a>
+<a id="org852587f"></a>
 
 # Summing the first n odd numbers
 
@@ -284,7 +284,7 @@ notation to draw of display these numbers.
 <tr>
 <td class="org-right">1</td>
 <td class="org-left">0 + 1</td>
-<td class="org-left">\*</td>
+<td class="org-left">o</td>
 </tr>
 
 
@@ -298,14 +298,21 @@ notation to draw of display these numbers.
 <tr>
 <td class="org-right">4</td>
 <td class="org-left">1 + 3</td>
-<td class="org-left">\* \*</td>
+<td class="org-left">o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\* \*</td>
+<td class="org-left">o   o</td>
+</tr>
+
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -319,21 +326,28 @@ notation to draw of display these numbers.
 <tr>
 <td class="org-right">9</td>
 <td class="org-left">4 + 5</td>
-<td class="org-left">\*  \*  \*</td>
+<td class="org-left">o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\*  \*  \*</td>
+<td class="org-left">o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\*  \*  \*</td>
+<td class="org-left">o   o   o</td>
+</tr>
+
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -347,28 +361,35 @@ notation to draw of display these numbers.
 <tr>
 <td class="org-right">16</td>
 <td class="org-left">9 + 7</td>
-<td class="org-left">\*  \*  \*  \*</td>
+<td class="org-left">o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\*  \*  \*  \*</td>
+<td class="org-left">o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\*  \*  \*  \*</td>
+<td class="org-left">o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\*  \*  \*  \*</td>
+<td class="org-left">o   o   o   o</td>
+</tr>
+
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -382,35 +403,42 @@ notation to draw of display these numbers.
 <tr>
 <td class="org-right">25</td>
 <td class="org-left">16 + 9</td>
-<td class="org-left">\* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o</td>
+</tr>
+
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -424,42 +452,42 @@ notation to draw of display these numbers.
 <tr>
 <td class="org-right">36</td>
 <td class="org-left">25 + 11</td>
-<td class="org-left">\* \* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\* \* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\* \* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\* \* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\* \* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o   o</td>
 </tr>
 
 
 <tr>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\* \* \* \* \* \*</td>
+<td class="org-left">o   o   o   o   o   o</td>
 </tr>
 </tbody>
 </table>
@@ -506,7 +534,7 @@ form becomes more evident.
     * * * * * *
 
 
-<a id="org9aa7d6d"></a>
+<a id="org7bf89fa"></a>
 
 # Redisplaying the sum of the first n numbers
 
@@ -516,7 +544,7 @@ triangles but in form of isoleces triangles. That is, we shall make
 them look like triangles which have 2 sides that are equal.
 
 
-<a id="orgc4ad74a"></a>
+<a id="orgaa70ad8"></a>
 
 ## Code section for the desired display
 
@@ -595,7 +623,7 @@ them look like triangles which have 2 sides that are equal.
        * * * * * * * *
 
 
-<a id="orga84dd3c"></a>
+<a id="org3594585"></a>
 
 # Conclusion
 
