@@ -25,7 +25,7 @@ publish: true
 The idea of numbers has fascinated humans for centuries and will
 continue to do so for ages to come. Numbers, at least in symbolic
 form, are akin to clothing that we put on magnitudes or quantities.
-Quantity is contemporarily taken to denote things can be increased
+Quantity is contemporarily taken to denote things that can be increased
 or decreased. The temperature of today can be represented using
 quanities. But the other fluid idea that enables our comprehension
 of the increase or decrease of quantities in question are nothing
@@ -542,7 +542,7 @@ them look like triangles which have 2 sides that are equal.
 
 <a id="org5537a8f"></a>
 
-## Code section for the desired displayed
+## Code section for the desired display
 
 
     // an object that stores the area of
