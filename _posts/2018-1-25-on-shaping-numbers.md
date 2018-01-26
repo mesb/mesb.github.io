@@ -3,18 +3,19 @@ layout: post
 title: Playing with numbers and shaping them
 publish: true
 ---
+
 # Table of Contents
 
-1.  [A brief rant on the numbers](#org23e192c)
-2.  [Displaying the sum of a sequence of numbers](#org28e7c7c)
-3.  [Summing the first n odd numbers](#org5305f81)
-4.  [Redisplaying the sum of the first n numbers](#orgaae3fc3)
-    1.  [Code section for the desired displayed](#org5537a8f)
-5.  [Conclusion](#org38f6d59)
+1.  [A brief rant on the numbers](#org1156133)
+2.  [Displaying the sum of a sequence of numbers](#org5c7b59e)
+3.  [Summing the first n odd numbers](#orgfbbaf04)
+4.  [Redisplaying the sum of the first n numbers](#org9aa7d6d)
+    1.  [Code section for the desired display](#orgc4ad74a)
+5.  [Conclusion](#orga84dd3c)
 
 
 
-<a id="org23e192c"></a>
+<a id="org1156133"></a>
 
 # A brief rant on the numbers
 
@@ -154,15 +155,6 @@ The shape traced by the table above reveals the form of a triangle.
 This form may be more evident if we erase the table's headers and
 first column.
 
-    def makeNumRow(n):
-        result = ""
-        for i in range(n):
-            result += "* "
-        return result
-
-    for i in range(11):
-         print makeNumRow(i)
-
     *
     * *
     * * *
@@ -182,7 +174,7 @@ interesting properties of numbers that can be explored further,
 alongside some additionally awe-inspiring operations.
 
 
-<a id="org28e7c7c"></a>
+<a id="org5c7b59e"></a>
 
 # Displaying the sum of a sequence of numbers
 
@@ -214,9 +206,6 @@ signify the beginning of a newline and the numbers(asterisks) after
 any plus symbol should be placed on the next line. Doing such will
 leave us with:
 
-    for i in range(6):
-        print makeNumRow(i)
-
     *
     * *
     * * *
@@ -234,7 +223,7 @@ representing and summing numbers using asterisks and newlines for
 plus symbols.
 
 
-<a id="org5305f81"></a>
+<a id="orgfbbaf04"></a>
 
 # Summing the first n odd numbers
 
@@ -478,19 +467,6 @@ notation to draw of display these numbers.
 Again, if the table is erased, and if we view them individually, the
 form becomes more evident.
 
-    def makeSquare(n):
-        result = ""
-        for i in range(n):
-            result += makeNumRow(n)
-            if i < (n-1):
-                result += "\n"
-        return result
-
-    for i in range(1, 7):
-        print "Representation for number ", i
-        print makeSquare(i)
-        print "\n"
-
     Representation for number  1
     *
 
@@ -530,7 +506,7 @@ form becomes more evident.
     * * * * * *
 
 
-<a id="orgaae3fc3"></a>
+<a id="org9aa7d6d"></a>
 
 # Redisplaying the sum of the first n numbers
 
@@ -540,56 +516,9 @@ triangles but in form of isoleces triangles. That is, we shall make
 them look like triangles which have 2 sides that are equal.
 
 
-<a id="org5537a8f"></a>
+<a id="orgc4ad74a"></a>
 
 ## Code section for the desired display
-
-
-    // an object that stores the area of
-    // a triangle and te index
-    type Triangle struct {
-        area, index int
-    }
-
-    func NewTriangle(side int) *Triangle {
-        res := (side * (side + 1)) / 2 // using formular n(n+1)/2
-
-        return &Triangle{res, side}
-    }
-
-    func (t Triangle) addRows() bytes.Buffer {
-        var buffer bytes.Buffer
-
-        for i := 0; i < t.index; i++ {
-            k := 0
-            for j := 0; j < i; j++ {
-                buffer.WriteString(fmt.Sprintf("%s", "* "))
-                k += 1
-            }
-            buffer.WriteString("\n")
-            buffer.WriteString(fmt.Sprintf("%*s %s", t.index-k, "", ""))
-        }
-
-        return buffer
-    }
-
-    func (t Triangle) String() string {
-        var buffer bytes.Buffer
-        buffer = t.addRows()
-
-        return buffer.String()
-    }
-
-    func main() {
-
-    for i := 2; i < 10; i++ {
-        t := NewTriangle(i)
-        fmt.Println("Representation for the sum of the first", i-1, "number(s)")
-        fmt.Println(t)
-        fmt.Println("\n")
-    }
-
-    }
 
     Representation for the sum of the first 1 number(s)
 
@@ -666,7 +595,7 @@ them look like triangles which have 2 sides that are equal.
        * * * * * * * *
 
 
-<a id="org38f6d59"></a>
+<a id="orga84dd3c"></a>
 
 # Conclusion
 
