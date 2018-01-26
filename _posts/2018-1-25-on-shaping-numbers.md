@@ -6,16 +6,16 @@ publish: true
 
 # Table of Contents
 
-1.  [A brief rant on the numbers](#orgee3a4b3)
-2.  [Displaying the sum of a sequence of numbers](#org995f592)
-3.  [Summing the first n odd numbers](#org852587f)
-4.  [Redisplaying the sum of the first n numbers](#org7bf89fa)
-    1.  [Code section for the desired display](#orgaa70ad8)
-5.  [Conclusion](#org3594585)
+1.  [A brief rant on the numbers](#orgd79faf5)
+2.  [Displaying the sum of a sequence of numbers](#org034f8cf)
+3.  [Summing the first n odd numbers](#org2bae1db)
+4.  [Redisplaying the sum of the first n numbers](#orgcb7b2c8)
+    1.  [Code section for the desired display](#orgeb3c405)
+5.  [Conclusion](#orgdfc10ca)
 
 
 
-<a id="orgee3a4b3"></a>
+<a id="orgd79faf5"></a>
 
 # A brief rant on the numbers
 
@@ -174,7 +174,7 @@ interesting properties of numbers that can be explored further,
 alongside some additionally awe-inspiring operations.
 
 
-<a id="org995f592"></a>
+<a id="org034f8cf"></a>
 
 # Displaying the sum of a sequence of numbers
 
@@ -223,7 +223,7 @@ representing and summing numbers using asterisks and newlines for
 plus symbols.
 
 
-<a id="org852587f"></a>
+<a id="org2bae1db"></a>
 
 # Summing the first n odd numbers
 
@@ -499,25 +499,25 @@ form becomes more evident.
     *
 
 
-    Representation for number  2
-    * *
-    * *
-
-
-    Representation for number  3
-    * * *
-    * * *
-    * * *
-
-
     Representation for number  4
+    * *
+    * *
+
+
+    Representation for number  9
+    * * *
+    * * *
+    * * *
+
+
+    Representation for number  16
     * * * *
     * * * *
     * * * *
     * * * *
 
 
-    Representation for number  5
+    Representation for number  25
     * * * * *
     * * * * *
     * * * * *
@@ -525,7 +525,7 @@ form becomes more evident.
     * * * * *
 
 
-    Representation for number  6
+    Representation for number  36
     * * * * * *
     * * * * * *
     * * * * * *
@@ -534,7 +534,7 @@ form becomes more evident.
     * * * * * *
 
 
-<a id="org7bf89fa"></a>
+<a id="orgcb7b2c8"></a>
 
 # Redisplaying the sum of the first n numbers
 
@@ -544,7 +544,7 @@ triangles but in form of isoleces triangles. That is, we shall make
 them look like triangles which have 2 sides that are equal.
 
 
-<a id="orgaa70ad8"></a>
+<a id="orgeb3c405"></a>
 
 ## Code section for the desired display
 
@@ -623,7 +623,7 @@ them look like triangles which have 2 sides that are equal.
        * * * * * * * *
 
 
-<a id="org3594585"></a>
+<a id="orgdfc10ca"></a>
 
 # Conclusion
 
