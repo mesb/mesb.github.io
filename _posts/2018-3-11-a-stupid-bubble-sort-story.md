@@ -106,11 +106,11 @@ Suppose, my Queen, that "Efongo" sitting right here plays the role of Aboko. He'
 
 To begin with, here are our 13 elements are:
 
-![img](../images/bsort/list1.png "The original lineup of produce data according to tribe number")
+![img]({{site.url}}/list1.png "The original lineup of produce data according to tribe number")
 
 For this problem, my fellow brothers and sisters, we have 13 elements to sort using the Bubble Sort algorithm. Therefore, our \( n \) is 13. Efongo your task now is to point at position 13. You, Efongo, will be in charge of the sorted region. At this point, you only command position \( n \) and no element is sorted so far. As we proceed, marching towards position 2, you will have command over a wider region, while Nyanga Ni will be handing over elements to you and expanding your region; in the same time, she will be shrinking her region of command. Below is a diagram of what Nyanga Ni and Efongo controlled at the start of the process.
 
-![img](../images/bsort/list2.png "Nyanfa Ni's and Efongo's regions at start of process")
+![img]({{site.url}}/list2.png "Nyanfa Ni's and Efongo's regions at start of process")
 
 Now, Nyanga Ni, your round begins at position \( 1 \) and ends at position \( 12 \). You would start at position \( 1 \). You'd compare the element, 234, with the element at position \( 2 \). In this case, \( 234 \) is bigger than \( 213 \). So we shall exhange them in the lineup. Luckily, the gods provided us with, as shown on the stone tablet, some kind of counter which they called \( j \). This counter should be incremented by \( 1 \) as you take rounds comparing successive pairs of elements. The counter \( j \) is the cursor; it represents the current element you want to compare with its next, right, neighbor. After the exchange, if there is one, you would increase your counter \( j \) by 1. In effect, you would test if \( LIST[j] > LIST[j+1] \); you would then swap if your  pair of elements are out of order. Next, you would increment \( j \) by \( 1 \) and repeating the comparison and or swapping until the value you get by incrementing \( j \) by \( 1 \) becomes equal to the number \( i - 1 \). In the first case, \( i = 13 \). This implies that you would compare consecutive pairs from \( j = 1 \) to \( j = 12 \). You would have to compare the element at position \( 12 \) and the element at position \( 13 \) and effect the swap if they are out of order.
 
@@ -118,27 +118,27 @@ Go on, Nyanga Ni and Efongo. Perform the first step let's all be delighted. Nyan
 
 Here is what the Queen saw after the first exhange:
 
-![img](../images/bsort/list3.png "Lineup after Nyanfa Ni swaps elements at positions \( 1 \) and \( 2 \)")
+![img]({{site.url}}/images/bsort/list3.png "Lineup after Nyanfa Ni swaps elements at positions \( 1 \) and \( 2 \)")
 
 Now, \( j \) is incremented to position \( 3 \) with an element of \( 382 \). The element, at position \( 4 \), next to \( 382 \), is \( 101 \). Clearly, and swiftly, Nyanga Ni made a swap.
 
-![img](../images/bsort/list4.png "Lineup after Nyanfa Ni swaps elements at positions \( 3 \) and \( 4 \)")
+![img]({{site.url}}/images/bsort/list4.png "Lineup after Nyanfa Ni swaps elements at positions \( 3 \) and \( 4 \)")
 
-![img](../images/bsort/list5.png "Lineup after Nyanfa Ni swaps elements at positions \( 5 \) and \( 6 \)")
+![img]({{site.url}}/images/bsort/list5.png "Lineup after Nyanfa Ni swaps elements at positions \( 5 \) and \( 6 \)")
 
-![img](../images/bsort/list6.png "Lineup after Nyanfa Ni swaps elements at positions \( 7 \) and \( 8 \)")
+![img]({{site.url}}/images/bsort/list6.png "Lineup after Nyanfa Ni swaps elements at positions \( 7 \) and \( 8 \)")
 
-![img](../images/bsort/list7.png "Lineup after Nyanfa Ni swaps elements at positions \( 8 \) and \( 9 \)")
+![img]({{site.url}}/images/bsort/list7.png "Lineup after Nyanfa Ni swaps elements at positions \( 8 \) and \( 9 \)")
 
-![img](../images/bsort/list8.png "Lineup after Nyanfa Ni swaps elements at positions \( 9 \) and \( 10 \)")
+![img]({{site.url}}/images/bsort/list8.png "Lineup after Nyanfa Ni swaps elements at positions \( 9 \) and \( 10 \)")
 
-![img](../images/bsort/list9.png "Lineup after Nyanfa Ni swaps elements at positions \( 10 \) and \( 11 \)")
+![img]({{site.url}}/images/bsort/list9.png "Lineup after Nyanfa Ni swaps elements at positions \( 10 \) and \( 11 \)")
 
-![img](../images/bsort/list10.png "Lineup after Nyanfa Ni swaps elements at positions \( 11 \) and \( 12 \)")
+![img]({{site.url}}/images/bsort/list10.png "Lineup after Nyanfa Ni swaps elements at positions \( 11 \) and \( 12 \)")
 
 Nyanga Ni is now at position \( 12 \). She can't go any further. She can however perform her last comparison and/or swap.
 
-![img](../images/bsort/list11.png "Lineup after Nyanfa Ni swaps elements at positions \( 12 \) and \( 13 \)")
+![img]({{site.url}}/images/bsort/list11.png "Lineup after Nyanfa Ni swaps elements at positions \( 12 \) and \( 13 \)")
 
 And by this point, Nyanga Ni has succeeded in depositing the largest element in the correct position, \( 13 \). She will now walk back to begin the second set of rounds, whence she'd find the next largest and deposit this element in the position pointed at by Efongo. Since Nyanga Ni succeeded in effecting a deposition, Efongo shifted the deposit position \( 1 \) less than the former. That is, Efongo decremented the value of \( i \) by \( 1 \).
 
@@ -148,25 +148,26 @@ If I may continue, brethen, Nyanga Ni will now go back to position \( 1 \) and s
 
 Below are the pictures of Nyanga Ni's and Efongo's work. Efongo points at the deposition position with his right hand, and he points at the end of the lineup with his left hand. This marks the boundaries of the \( SORTED \) region.
 
-![img](../images/bsort/list12.png "Nyanga Ni commands \( 1..11 \) and Efongo commands \( 12, 13 \)")
+![img]({{site.url}}/images/bsort/list12.png "Nyanga Ni commands \( 1..11 \) and Efongo commands \( 12, 13 \)")
 
-![img](../images/bsort/list13.png "Lineup after Nyanga Ni swaps elements at positions \( 2 \) and \( 3 \)")
+![img]({{site.url}}/images/bsort/list13.png "Lineup after Nyanga Ni swaps elements at positions \( 2 \) and \( 3 \)")
 
-![img](../images/bsort/list14.png "Lineup after Nyanga Ni swaps elements at positions \( 5 \) and \( 6 \)")
+![img]({{site.url}}/images/bsort/list14.png "Lineup after Nyanga Ni swaps elements at positions \( 5 \) and \( 6 \)")
 
-![img](../images/bsort/list15.png "Lineup after Nyanga Ni swaps elements at positions \( 6 \) and \( 7 \)")
+![img]({{site.url}}/images/bsort/list15.png "Lineup after Nyanga Ni swaps elements at positions \( 6 \) and \( 7 \)")
 
-![img](../images/bsort/list16.png "Lineup after Nyanga Ni swaps elements at positions \( 7 \) and \( 8 \)")
+![img]({{site.url}}/images/bsort/list16.png "Lineup after Nyanga Ni swaps elements at positions \( 7 \) and \( 8 \)")
 
-![img](../images/bsort/list17.png "Lineup after Nyanga Ni swaps elements at positions \( 8 \) and \( 9 \)")
+![img]({{site.url}}/images/bsort/list17.png "Lineup after Nyanga Ni swaps elements at positions \( 8 \) and \( 9 \)")
 
-![img](../images/bsort/list19.png "Lineup after Nyanga Ni swaps elements at positions \( 9 \) and \( 10 \)")
+![img]({{site.url}}/images/bsort/list19.png "Lineup after Nyanga Ni swaps elements at positions \( 9 \) and \( 10 \)")
 
-![img](../images/bsort/list20.png "Lineup after Nyanga Ni swaps elements at positions \( 11 \) and \( 12 \)")
+![img]({{site.url}}/images/bsort/list20.png "Lineup after Nyanga Ni swaps elements at positions \( 11 \) and \( 12 \)")
+
 
 The august Kkaienge continued his commentaries as Nyango Ni and Efongo were busily sorting the tribes data. Kkaienge said it can be evident that this Bubble Sort takes a long time to sort elements. The gods told him it was one of the slowest algorithms, especially if the algorthm has to be used for large lineups. After sometime, Nyanga and Efongo said they were done. Efongo was pointing as position \( 2 \).
 
-![img](../images/bsort/list21.png "Lineup after Nyanga Ni and Efongo are done sorting&#x2026;")
+![img]({{site.url}}/images/bsort/list21.png "Lineup after Nyanga Ni and Efongo are done sorting&#x2026;")
 
 By this point, the Queen expressed her joys with the most brilliant smile. She and her court had succeeded, for the first time in their history, to sort data. It appears tribe number \( 7 \) had the least produce.
 
