@@ -124,7 +124,7 @@ Here is what the Queen saw after the first exhange:
 
 Now, \( j \) is incremented to position \( 3 \) with an element of \( 382 \). The element, at position \( 4 \), next to \( 382 \), is \( 101 \). Clearly, and swiftly, Nyanga Ni made a swap.
 
-![img]({{site.url}}/images/bsort/list4.png = 250 "Lineup after Nyanfa Ni swaps elements at positions \( 3 \) and \( 4 \)")
+![img]({{site.url}}/images/bsort/list4.png "Lineup after Nyanfa Ni swaps elements at positions \( 3 \) and \( 4 \)")
 
 ![img]({{site.url}}/images/bsort/list5.png "Lineup after Nyanfa Ni swaps elements at positions \( 5 \) and \( 6 \)")
 
