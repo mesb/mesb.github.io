@@ -108,7 +108,9 @@ Suppose, my Queen, that "Efongo" sitting right here plays the role of Aboko. He'
 
 To begin with, here are our 13 elements are:
 
-![img]({{site.url}}/images/bsort/list1.png "The original lineup of produce data according to tribe number")
+| ![img]({{site.url}}/images/bsort/list1.png "The original lineup of produce data according to tribe number") |
+|:--:|
+| *The original lineup of produce data according to tribe number* |
 
 For this problem, my fellow brothers and sisters, we have 13 elements to sort using the Bubble Sort algorithm. Therefore, our \( n \) is 13. Efongo your task now is to point at position 13. You, Efongo, will be in charge of the sorted region. At this point, you only command position \( n \) and no element is sorted so far. As we proceed, marching towards position 2, you will have command over a wider region, while Nyanga Ni will be handing over elements to you and expanding your region; in the same time, she will be shrinking her region of command. Below is a diagram of what Nyanga Ni and Efongo controlled at the start of the process.
 
