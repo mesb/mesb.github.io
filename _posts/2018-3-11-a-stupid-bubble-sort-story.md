@@ -178,7 +178,7 @@ Nyanga Ni is now at position \( 12 \). She can't go any further. She can however
 
 |![img]({{site.url}}/images/bsort/list11.png "Lineup after Nyanfa Ni swaps elements at positions \( 12 \) and \( 13 \)")|
 |:--:|
-|*Lineup after Nyanfa Ni swaps elements at positions 12 and 1* |
+|*Lineup after Nyanfa Ni swaps elements at positions 12 and 13* |
 
 And by this point, Nyanga Ni has succeeded in depositing the largest element in the correct position, \( 13 \). She will now walk back to begin the second set of rounds, whence she'd find the next largest and deposit this element in the position pointed at by Efongo. Since Nyanga Ni succeeded in effecting a deposition, Efongo shifted the deposit position \( 1 \) less than the former. That is, Efongo decremented the value of \( i \) by \( 1 \).
 
