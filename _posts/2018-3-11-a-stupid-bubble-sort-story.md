@@ -235,7 +235,7 @@ Below are the pictures of Nyanga Ni's and Efongo's work. Efongo points at the de
 |*Lineup after Nyanga Ni swaps elements at positions 11 and 12*|
 
 
-The august Kkaienge continued his commentaries as Nyango Ni and Efongo were busily sorting the tribes data. Kkaienge said it can be evident that this Bubble Sort takes a long time to sort elements. The gods told him it was one of the slowest algorithms, especially if the algorthm has to be used for large lineups. After sometime, Nyanga and Efongo said they were done. Efongo was pointing as position \( 2 \).
+The august Kkaienge continued his commentaries as Nyango Ni and Efongo were busily sorting the kingdom's data. Kkaienge said it can be evident that this Bubble Sort algorithm takes a long time to sort elements. The gods told him it was one of the slowest algorithms, especially if the algorthm has to be used for large lineups. After sometime, Nyanga and Efongo said they were done. Efongo was pointing as position \( 2 \).
 
 
 
@@ -253,4 +253,4 @@ Kkaienge thought for a while and then he responded:
 
 It is very possible, my great Queen. The gods showed me how to count such operations. They called it, *The Analysis of Algorithms* and they reported that the first human to do this a long time ago is called **Don Knuth**. Through analysis of algorithms, the analyst can obtain quantitive information about the cost accrued in the course of running algorithms. Since the Queen was about to depart, Kkaienge promised to demonstrate, in the near future, the art of analyzing algorithms in general, with the assistance and testimony of the analysis of the Bubble Sort algorithm.
 
-The rest of the court were fascinated by the primitive procedure they'd just observed. The Queen obtained the information she requested. Kkaienge thanked the court for their attention and promised to next demonstrate the analysis of the algorithm they just observed.
+The rest of the court was fascinated by the primitive procedure they'd just observed. The Queen obtained the information she requested. Kkaienge thanked the court for their attention and promised to next demonstrate the analysis of the algorithm they just observed.
