@@ -148,21 +148,21 @@ If I may continue, brethen, Nyanga Ni will now go back to position \( 1 \) and s
 
 Below are the pictures of Nyanga Ni's and Efongo's work. Efongo points at the deposition position with his right hand, and he points at the end of the lineup with his left hand. This marks the boundaries of the \( SORTED \) region.
 
-![img](./images/bsort/list12.png "Nyanga Ni commands \( 1..11 \) and Efongo commands \( 12, 13 \)")
+![img](../images/bsort/list12.png "Nyanga Ni commands \( 1..11 \) and Efongo commands \( 12, 13 \)")
 
-![img](./images/bsort/list13.png "Lineup after Nyanga Ni swaps elements at positions \( 2 \) and \( 3 \)")
+![img](../images/bsort/list13.png "Lineup after Nyanga Ni swaps elements at positions \( 2 \) and \( 3 \)")
 
-![img](./images/bsort/list14.png "Lineup after Nyanga Ni swaps elements at positions \( 5 \) and \( 6 \)")
+![img](../images/bsort/list14.png "Lineup after Nyanga Ni swaps elements at positions \( 5 \) and \( 6 \)")
 
-![img](./images/bsort/list15.png "Lineup after Nyanga Ni swaps elements at positions \( 6 \) and \( 7 \)")
+![img](../images/bsort/list15.png "Lineup after Nyanga Ni swaps elements at positions \( 6 \) and \( 7 \)")
 
-![img](./images/bsort/list16.png "Lineup after Nyanga Ni swaps elements at positions \( 7 \) and \( 8 \)")
+![img](../images/bsort/list16.png "Lineup after Nyanga Ni swaps elements at positions \( 7 \) and \( 8 \)")
 
-![img](./images/bsort/list17.png "Lineup after Nyanga Ni swaps elements at positions \( 8 \) and \( 9 \)")
+![img](../images/bsort/list17.png "Lineup after Nyanga Ni swaps elements at positions \( 8 \) and \( 9 \)")
 
-![img](./images/bsort/list19.png "Lineup after Nyanga Ni swaps elements at positions \( 9 \) and \( 10 \)")
+![img](../images/bsort/list19.png "Lineup after Nyanga Ni swaps elements at positions \( 9 \) and \( 10 \)")
 
-![img](./images/bsort/list20.png "Lineup after Nyanga Ni swaps elements at positions \( 11 \) and \( 12 \)")
+![img](../images/bsort/list20.png "Lineup after Nyanga Ni swaps elements at positions \( 11 \) and \( 12 \)")
 
 The august Kkaienge continued his commentaries as Nyango Ni and Efongo were busily sorting the tribes data. Kkaienge said it can be evident that this Bubble Sort takes a long time to sort elements. The gods told him it was one of the slowest algorithms, especially if the algorthm has to be used for large lineups. After sometime, Nyanga and Efongo said they were done. Efongo was pointing as position \( 2 \).
 
