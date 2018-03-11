@@ -19,7 +19,9 @@ The Queen thought deeply about this and said, "Yes! Let the various tribe leader
 
 Three years and eight months later, all the tribes had done their best and their products were stored in humongous and high-tech pyramids that were repaired by the tribe of builders. These pyramids were specialized for food and resource storage. The chief mathematician, Kkaienge, recorded the output, measured in ne(s), of each tribe and presented the data to the Queen. There were 13 tribes in that kingdom and below are the various outputs presented by Kkaienge to the Queen:
 
-(1, 234), (2, 213), (3, 382), (4, 101), (5, 737), (6, 50), (7, 10), (8, 199), (9, 366), (10, 148), (11, 838), (12, 636), (13, 80)
+
+(1, 234), (2, 213), (3, 382), (4, 101), (5, 382), (6, 101), (7, 737), (8, 50), (9, 10), (10, 199), (11, 366), (12, 148), (13, 80)
+
 
 Kkaienge explained the format of the data to the Queen. Each measurement is represented as a pair of numbers. The first number in the pair is the tribe number(from 1 to 13 for the 13 tribes), and the second number in the pair is the actual produce in million ne(s). Hence, Tribe number 1 produced 234 million nes. Tribe number 2 produced 213 million nes; and so on.
 
