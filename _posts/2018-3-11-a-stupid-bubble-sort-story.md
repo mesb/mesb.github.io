@@ -41,18 +41,29 @@ The wise Kkaienge was awed by the enthusiasm of their Queen. He then said the al
 Kkaienge began his story:
 
 Oh wise gods of our great kindgom
+
 Sing to us again
+
 And tell us the steps
+
 Of the Bubble Sort procedure
+
 With words simple and clear,
+
 Reveal to us this great activity
 
 The gods first told me the word
+
 That captures all such activities
+
 Is known as "ALGORITHM"
+
 An ALGORITHM is the sequence
+
 Of steps that are involved in transforming
+
 A given set of elements
+
 To a desired set of results
 
 The Bubble Sort algorithm, Kkaienge said, involves 2 key players who work together to rearrange the a lineup of entities to be sorted. These entities are also called elements. The elements form a lineup of elements, each element at a position that has a unique number. The first element is at position 1, the next at position 2, and the lineup positions extend until the last position, which the gods said is only fixed at the time of performing the actual sorting. In other words, the gods said they'd make this last position's number very general and they symbolized it by the letter \( n \). Hence, the elements to be sorted are lined up in position and in the order:
