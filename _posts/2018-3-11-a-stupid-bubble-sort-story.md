@@ -106,11 +106,11 @@ Suppose, my Queen, that "Efongo" sitting right here plays the role of Aboko. He'
 
 To begin with, here are our 13 elements are:
 
-![img]({{site.url}}/list1.png "The original lineup of produce data according to tribe number")
+![img]({{site.url}}/images/bsort/list1.png "The original lineup of produce data according to tribe number")
 
 For this problem, my fellow brothers and sisters, we have 13 elements to sort using the Bubble Sort algorithm. Therefore, our \( n \) is 13. Efongo your task now is to point at position 13. You, Efongo, will be in charge of the sorted region. At this point, you only command position \( n \) and no element is sorted so far. As we proceed, marching towards position 2, you will have command over a wider region, while Nyanga Ni will be handing over elements to you and expanding your region; in the same time, she will be shrinking her region of command. Below is a diagram of what Nyanga Ni and Efongo controlled at the start of the process.
 
-![img]({{site.url}}/list2.png "Nyanfa Ni's and Efongo's regions at start of process")
+![img]({{site.url}}/images/bsort/list2.png "Nyanfa Ni's and Efongo's regions at start of process")
 
 Now, Nyanga Ni, your round begins at position \( 1 \) and ends at position \( 12 \). You would start at position \( 1 \). You'd compare the element, 234, with the element at position \( 2 \). In this case, \( 234 \) is bigger than \( 213 \). So we shall exhange them in the lineup. Luckily, the gods provided us with, as shown on the stone tablet, some kind of counter which they called \( j \). This counter should be incremented by \( 1 \) as you take rounds comparing successive pairs of elements. The counter \( j \) is the cursor; it represents the current element you want to compare with its next, right, neighbor. After the exchange, if there is one, you would increase your counter \( j \) by 1. In effect, you would test if \( LIST[j] > LIST[j+1] \); you would then swap if your  pair of elements are out of order. Next, you would increment \( j \) by \( 1 \) and repeating the comparison and or swapping until the value you get by incrementing \( j \) by \( 1 \) becomes equal to the number \( i - 1 \). In the first case, \( i = 13 \). This implies that you would compare consecutive pairs from \( j = 1 \) to \( j = 12 \). You would have to compare the element at position \( 12 \) and the element at position \( 13 \) and effect the swap if they are out of order.
 
