@@ -8,9 +8,9 @@ publish: true
 
 This note is very similar in spirit to my previous notes of procedure design. I
 am hugely excited by how
-much i have missed, and how much I have now resolved to gain from learning from
+much I have missed, and how much I have now resolved to gain from learning from
 my mistakes and the mistakes those that came before me. Problem solving is
-birth right. It comes with the mind, and like a baby practices till it can walk problem solving
+a birth right. It comes with the mind, and like a baby practices till it can walk, problem solving
 skills increase with practice.
 
 Problem solving, seen objectively, appears to be a garbage in, garbage out
@@ -21,7 +21,7 @@ correctly, you get a solution.
 
 ## Understanding the Problem<a id="orgheadline1"></a>
 
-The root of all solutoins. The venerable George Polya in his book *How To Solve
+The set of right questions is root of all solutoins. The venerable George Polya in his book, *How To Solve
 It*, has this to say about understanding the problem:
 
 1.  What is the unkown?
@@ -32,7 +32,7 @@ It*, has this to say about understanding the problem:
     redundant? Or contradictory?
 
 Now I realize with great satisfaction that this is the key to the gates of
-heaven and at the same time the key to the gates of hell :-)
+heaven and at the same time, the key to the gates of hell :-)
 
 I will now use these steps to solve a problem.
 
@@ -60,7 +60,7 @@ These points reduce to the following:
 
 1.  What is the nature of a tree?
 
-    A tree is a list which is empty or whose elements are either lists or atoms. I
+    A tree is a list which is either empty or whose elements are themselves lists or atoms. I
     will now formally describe a tree.
 
     Tree :== () | (Atom. Tree)
@@ -76,17 +76,17 @@ These points reduce to the following:
 
 ### What is the condition?<a id="orgheadline8"></a>
 
-From the above and upon proper investigation, it appears the nature of the data
-present the necessary conditions to consider for this problem. The following
-questions will produce a suitable set of conditions for solving These problem.
+From the above, and upon proper investigation, it appears that the nature of the data
+presents the necessary conditions to consider for this problem. The following
+questions will produce a suitable set of conditions for solving these problem:
 
 1.  What happens to an empty tree? The number of leaves in an empty tree is 0.
 2.  What happens to an atom? The number of leaves in an atom is 1.
 3.  What happens to a sublist? A sublist can be treated as an instance of the
-    original problem and 1) and 2) above will apply to its solution.
+    original problem. Therefore, 1) and 2) above will apply to its solution.
 
-These questions naturally arise from investigation the existential forms or
-morphs of tree objects, that is, from understand the question: &ldquo;what are the data?&rdquo;
+These questions naturally arise from investigating the existential forms or
+morphs of tree objects. That is, from understanding the question: &ldquo;what are the data?&rdquo;
 
 ### Is it possible to satisfy the condition?<a id="orgheadline9"></a>
 
@@ -124,6 +124,15 @@ problem.
 Voila! The soution seems to work. It might not be the most efficient solution,
 but the framework described above served as a good vehicle for understanding
 the problem and the solution at every stage of development. And it feels good.
+
+## Addendum
+In total, problem solving is the art of cooking a solution that will serve as a bridge from instances of the problem at hand to a desired state of affairs. Each thing is a thing by virtue of a set of its properties and/or behaviors. Most times, the problem, itself, is a behavior or attribute that manifests in ways that hinder our world experiences. 
+
+But the main question is, how do we even know that a problem is a problem if we don't understand its nature?
+
+Interestingly, understanding the nature of the problem is synonymous to understanding its solution. 
+
+Therefore, problem solving is some kind of LOVE affair with a problem. We go in with LOVE as our guide. And this love fuels our quest to understand the attributes and behaviors of this problem come partner. And it's this understanding that teleports us to a solution, which we can implement in the ways that our world around us permits.
 
 ## References<a id="orgheadline13"></a>
 
