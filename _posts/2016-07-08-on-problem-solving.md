@@ -24,7 +24,7 @@ correctly, you get a solution.
 The set of right questions is root of all solutions. The venerable George Polya in his book, *How To Solve
 It*, has this to say about understanding the problem:
 
-1.  What is the unkown?
+1.  What is the unknown?
 2.  What are the data?
 3.  What is the condition?
 4.  Is it possible to satisfy the condition?
