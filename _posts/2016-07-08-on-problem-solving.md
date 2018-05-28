@@ -21,7 +21,7 @@ correctly, you get a solution.
 
 ## Understanding the Problem<a id="orgheadline1"></a>
 
-The set of right questions is root of all solutoins. The venerable George Polya in his book, *How To Solve
+The set of right questions is root of all solutions. The venerable George Polya in his book, *How To Solve
 It*, has this to say about understanding the problem:
 
 1.  What is the unkown?
