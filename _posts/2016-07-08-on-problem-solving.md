@@ -9,7 +9,7 @@ publish: true
 This note is very similar in spirit to my previous notes of procedure design. I
 am hugely excited by how
 much I have missed, and how much I have now resolved to gain from learning from
-my mistakes and the mistakes those that came before me. Problem solving is
+my mistakes, and the mistakes those who came before me. Problem solving is
 a birth right. It comes with the mind, and like a baby practices till it can walk, problem solving
 skills increase with practice.
 
